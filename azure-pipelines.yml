@@ -4,6 +4,9 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+parameters:
+  hugo_version: '0.60.1'
+
 steps:
 - checkout: self
   persistCredentials: true
@@ -16,15 +19,9 @@ steps:
   displayName: 'Git Settings'
 
 - script: |
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-    test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-    test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-    test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-    echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-  displayName: 'Install Linuxbrew'
-
-- script: |
-    /home/linuxbrew/.linuxbrew/bin/brew install hugo
+    wget https://github.com/gohugoio/hugo/releases/download/v${{ parameters.hugo_version }}/hugo_${{ parameters.hugo_version }}_Linux-64bit.deb \
+        -O '$(Pipeline.Workspace)/hugo_${{ parameters.hugo_version }}_Linux-64bit.deb'
+    sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
   displayName: 'Install Hugo'
 
 - script: |
