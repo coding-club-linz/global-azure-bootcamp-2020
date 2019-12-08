@@ -24,7 +24,7 @@ steps:
   displayName: 'Install Linuxbrew'
 
 - script: |
-    brew install hugo
+    /home/linuxbrew/.linuxbrew/bin/brew install hugo
   displayName: 'Install Hugo'
 
 - script: |
