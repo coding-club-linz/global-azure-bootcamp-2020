@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://www.globalazurebootcamp.at/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>http://www.globalazurebootcamp.at/</loc>
   </url>
   
   <url>
-    <loc>https://example.org/schedule/</loc>
+    <loc>http://www.globalazurebootcamp.at/schedule/</loc>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://www.globalazurebootcamp.at/tags/</loc>
   </url>
   
 </urlset>
