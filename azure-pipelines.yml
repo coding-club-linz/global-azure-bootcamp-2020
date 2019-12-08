@@ -38,6 +38,7 @@ steps:
 
 - script: |
     git checkout gh-pages
+    rm -rf .
   displayName: 'Switch to gh-pages branch'
 
 - task: CopyFiles@2
