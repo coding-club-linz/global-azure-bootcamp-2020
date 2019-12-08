@@ -1,4 +1,4 @@
-baseurl = "http://www.globalazurebootcamp.at/"
+baseurl = "https://www.globalazurebootcamp.at/"
 languageCode = "en-us"
 title = "Global Azure Bootcamp 2020"
 theme = "global-azure-bootcamp"
