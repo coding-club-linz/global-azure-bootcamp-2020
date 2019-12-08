@@ -1,0 +1,49 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact" class="bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Contact</h2>
+                <hr class="primary">
+                <p>
+                    Contact us to get more information on sponsorship and speaking opportunities.
+                </p>
+            </div>
+
+            <!-- <div class="col-md-4 col-md-offset-2 col-sm-6 text-center">
+                <a href="https://twitter.com/{{ .Site.Params.contact.twitter }}" target="_blank"><i class="fa fa-twitter fa-3x wow bounceIn"></i>
+                    <p>@{{ .Site.Params.contact.twitter }}
+                </a></p>
+            </div> -->
+
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                <a href="mailto:{{ .Site.Params.contact.email }}"><i class="fa fa-envelope-o fa-3x wow bounceIn"
+                        data-wow-delay=".1s"></i>
+                    <p>{{ .Site.Params.contact.email }}
+                </a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="contact-2" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Join Our Mailing List</h2>
+                <hr class="primary">
+                <p>Sign up to receive updates about Global Azure Bootcamp Linz, including speaker previews, ticket launches, Call
+                    for Proposal details and other exclusive content. We won’t spam you and will only send you emails we
+                    genuinely think you’ll find interesting. You can unsubscribe at any time.</p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-2 col-xs-9 text-center">
+                <input type="email" id="newsletter-email" class="form-control" placeholder="Enter your email address" />
+            </div>
+
+            <div class="col-sm-2 col-xs-3">
+                <button class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+    </div>
+</section> -->
