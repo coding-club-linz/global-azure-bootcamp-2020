@@ -25,6 +25,11 @@ hr.light {
     border-color: #fff;
 }
 
+hr.full {
+    max-width: 100%;
+    border-width: 1px;
+}
+
 a {
     color: #03a9f4;
     -webkit-transition: all .35s;
@@ -69,6 +74,15 @@ p {
 .bg-dark {
     color: #fff;
     background-color: #222;
+}
+
+.bg-dark a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+}
+
+.bg-dark a:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
 .text-faded {
@@ -514,4 +528,14 @@ body {
 #mce-error-response a,
 #mce-success-response a {
     color: #555;
+}
+
+/* Sponors */
+.sponsors p {
+    font-size: 16px !important;
+}
+
+.sponsors img {
+    max-width: 250px;
+    width: 80%;
 }

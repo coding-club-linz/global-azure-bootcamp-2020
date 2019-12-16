@@ -34,6 +34,7 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			tickets   = "Tickets"
+            sponsors   = "Sponsors"
 			location  = "Location"
 			contact   = "Contact"
 
