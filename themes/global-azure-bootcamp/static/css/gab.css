@@ -539,3 +539,9 @@ body {
     max-width: 250px;
     width: 80%;
 }
+
+.sponsor-type {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26.4px;
+}
