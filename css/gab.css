@@ -203,7 +203,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6)), url('../img/hero3.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6)), url('../img/hero.png');
     backdrop-filter: grayscale(30%);
     background-position: center;
     -webkit-background-size: cover;
