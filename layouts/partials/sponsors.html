@@ -16,53 +16,31 @@
             </div>
         </div>
 
+        {{ $headless := .Site.GetPage "/sponsors" }}
+        {{ $reusablePages := $headless.Resources.Match "*" }}
+        {{ range sort $reusablePages "Params.priority" "title"  }}
         <div class="row sponsors">
             <hr class="primary full">
 
             <div class="col-lg-3 text-center">
                 <h3 class="visible-lg">&nbsp;</h3>
                 <p>
-                    <img src="img/ms-logo.png" />
+                    <img src="img/sponsors/{{ .Params.logo }}" />
                 </p>
             </div>
             <div class="col-lg-9">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-6"><h3>Microsoft</h3></div>
-                    <div class="col-sm-6 col-xs-6 text-right"><h3 class="sponsor-type">Platinum Sponsor</h3></div>
+                    <div class="col-sm-6 col-xs-6">
+                        <h3>{{ .Title }}</h3>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 text-right">
+                        <h3 class="sponsor-type">{{ .Type }}</h3>
+                    </div>
                 </div>
-                
-                <p class="text-muted">
-                    Seit seiner Gründung 1991 hat sich Microsoft Österreich vom Kleinstbetrieb mit drei Mitarbeitern zu
-                    einem Mittelbetrieb mit heute rund 340 Mitarbeitern entwickelt. Seit 1991 ist Microsoft mit einer
-                    eigenen Niederlassung in Wien vertreten.
-                </p>
 
-                <p class="text-muted">Gemeinsam mit mehr als 5.500 heimischen Partnerunternehmen hat es sich Microsoft Österreich zum Ziel
-                    gesetzt, Menschen und Unternehmen zu ermöglichen durch den Einsatz moderner Technologien ihr volles
-                    Potenzial zu entfalten.</p>
-
-                <p class="text-muted">Es werden laufend Bildungspartnerschaften für Kindergärten, Schulen und Universitäten entwickelt,
-                    sowie
-                    IT-Ausbildungsprojekte für sozial benachteiligte Bevölkerungsgruppen umgesetzt. Darüber hinaus
-                    engagiert
-                    sich das Unternehmen für den sicheren Umgang mit Informationstechnik, den Schutz persönlicher Daten,
-                    sowie Kinder-und Jugendschutz im Web und fördert Innovationsprojekte am Standort Österreich.</p>
-
-                <p class="text-muted"><i>"Das gesellschaftliche Engagement bei Microsoft setzt ganz stark auf die Themen Bildung und
-                    Wissenstransfer. Für uns als IT-Unternehmen geht es dabei besonders um die Überwindung des “Digital
-                    Divide” – also der Kluft zwischen Menschen, die die Vorteile der Informationstechnologie bereits
-                    tagtäglich nutzen und denjenigen, denen bis dato aus unterschiedlichsten Gründen dieser Zugang
-                    verwehrt
-                    war. In der Teilhabe an der Informations- und Wissensgesellschaft sehen wir einen wesentlichen
-                    Schlüssel
-                    zur Vermeidung von Armut und sozialer Benachteiligung."</i> (Dorothee Ritz, General Manager Microsoft
-                    Österreich)</p>
-
-                <p class="text-muted">Microsoft Österreich GmbH<br />
-                    Am Euro Platz 3<br />
-                    A-1120 Wien<br />
-                    <a href="https://www.microsoft.com/de-at" target="_blank">www.microsoft.com/de-at</a></p>
+                {{ .Content | safeHTML}}
             </div>
         </div>
+        {{ end }}
     </div>
 </section>
