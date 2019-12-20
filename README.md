@@ -1,6 +1,6 @@
 # Global Azure Bootcamp Linz 2020
 
-This website is based on the [Hugo Creative Theme](https://github.com/digitalcraftsman/hugo-creative-theme/).
+The [Global Azure Bootcamp Linz 2020](https://www.globalazurebootcamp.at/) website is based on the [Hugo Creative Theme](https://github.com/digitalcraftsman/hugo-creative-theme/).
 
 
 ## Contributing
