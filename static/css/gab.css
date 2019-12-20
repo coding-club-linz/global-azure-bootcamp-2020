@@ -533,6 +533,7 @@ body {
 /* Sponors */
 .sponsors p {
     font-size: 16px !important;
+    color: #777;
 }
 
 .sponsors img {
