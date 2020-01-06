@@ -6,7 +6,7 @@ pool:
 
 variables:
   hugo_version: '0.62.2'
-  target_branch: 'gh-pages-dev'
+  target_branch: 'gh-pages'
 
 steps:
 - checkout: self
