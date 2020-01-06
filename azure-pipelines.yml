@@ -48,6 +48,10 @@ steps:
     targetFolder: .
     overWrite: true
   displayName: 'Copy build results to $(target_branch) branch'
+  
+- script: |
+    echo -e www.globalazurebootcamp.at'\n' > CNAME
+  displayName: 'Create CNAME file for GitHub Pages'
 
 - script: |
     git add --all .
