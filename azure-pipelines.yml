@@ -6,6 +6,7 @@ pool:
 
 variables:
   hugo_version: '0.60.1'
+  target_branch: 'gh-pages-dev'
 
 steps:
 - checkout: self
@@ -37,20 +38,19 @@ steps:
   displayName: 'Copy build result to temp'
 
 - script: |
-    git checkout gh-pages
+    git checkout $(target_branch)
     rm -rf *
-  displayName: 'Switch to gh-pages branch'
+  displayName: 'Switch to $(target_branch) branch'
 
 - task: CopyFiles@2
   inputs:
     sourceFolder: $(Agent.TempDirectory)/public
     targetFolder: .
     overWrite: true
-  displayName: 'Copy build results to gh-pages branch'
+  displayName: 'Copy build results to $(target_branch) branch'
 
 - script: |
-    # git add --all .
-    # git commit -m 'Update website'
-    # git push origin gh-pages
-    ls -la
-  displayName: 'Git push gh-pages branch'
+    git add --all .
+    git commit -m 'Update website'
+    git push origin $(target_branch)
+  displayName: 'Git push $(target_branch) branch'
