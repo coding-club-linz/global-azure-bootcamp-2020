@@ -1,6 +1,6 @@
 ---
 title: "ppedv"
-type: "Silver Sponsor"
+type: "Gold Sponsor"
 logo: "ppedv.png"
 priority: 3
 ---
