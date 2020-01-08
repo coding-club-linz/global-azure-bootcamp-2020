@@ -102,11 +102,11 @@ aside {
 }
 
 .navbar-default {
-    border-color: rgba(255, 255, 255, .3);
-    background-color: transparent;
-    /* border-color: rgba(34, 34, 34, .05); */
+    /* border-color: rgba(255, 255, 255, .3);
+    background-color: transparent; */
+    border-color: rgba(34, 34, 34, .05);
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    /* background-color: #fff; */
+    background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -154,10 +154,10 @@ aside {
     background-color: transparent;
 }
 
-.navbar-default.affix {
+/* .navbar-default.affix {
     border-color: rgba(34, 34, 34, .05);
     background-color: #fff;
-}
+} */
 
 @media(min-width:768px) {
     .navbar-default {
@@ -566,7 +566,8 @@ body {
 
 /* Hero */
 .hero-image {
-    height: 25vh;
+    max-height: 25vh;
+    max-width: 90vw;
 }
 
 /* Sponors */
