@@ -1,0 +1,61 @@
+{
+    "sessions": [
+      {
+        "id": "167745",
+        "title": "Stories of void",
+        "description": "TypeScript was designed to make the most sense out of any JavaScript code. Given the dynamic nature of JavaScript, this can lead to some very interesting typings that may seem odd at a first glance. One such thing is void. A concept that's well known in high-level programming languages, that takes a life of its own when used with TypeScript. The reason for that? Void in JavaScript! Join us to hear a story about tooling, program language design, static types, midlife crisis and undefined!",
+        "startsAt": null,
+        "endsAt": null,
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
+        ],
+        "categoryItems": [],
+        "questionAnswers": [],
+        "roomId": null
+      }
+    ],
+    "speakers": [
+      {
+        "id": "f62f9691-37cd-4ca6-81f1-14c7234ab46e",
+        "firstName": "Stefan",
+        "lastName": "Baumgartner",
+        "bio": "Stefan Baumgartner works at Dynatrace. He writes for Manning, Smashing Magazine and A List Apart and made the Kessel run in less than 12 parsecs.\r\n\r\nIn his spare time, he organizes ScriptConf and DevOne in Linz, and co-hosts the German language Working Draft podcast. Stefan enjoys Italian food, Belgian beer and British vinyl records.",
+        "tagLine": "Internet Batman at Dynatrace",
+        "profilePicture": "https://sessionize.com/image?f=3473ff91db2e813ec79f5312bb7ca059,400,400,1,0,91-37cd-4ca6-81f1-14c7234ab46e.731cbb55-9496-4ae7-b38a-cfb57575f560.jpg",
+        "isTopSpeaker": false,
+        "links": [
+          {
+            "title": "Twitter",
+            "url": "https://twitter.com/ddprrt",
+            "linkType": "Twitter"
+          },
+          {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/stefan-baumgartner-bb621564/",
+            "linkType": "LinkedIn"
+          },
+          {
+            "title": "Blog",
+            "url": "https://fettblog.eu",
+            "linkType": "Blog"
+          },
+          {
+            "title": "Company Website",
+            "url": "https://tsconf.eu",
+            "linkType": "Company_Website"
+          }
+        ],
+        "sessions": [
+          167745
+        ],
+        "fullName": "Stefan Baumgartner",
+        "categoryItems": [],
+        "questionAnswers": []
+      }
+    ],
+    "questions": [],
+    "categories": [],
+    "rooms": []
+  }

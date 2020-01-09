@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Global Azure Bootcamp 2020"
 googleAnalytics = ""
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.blackFriday]
+		hrefTargetBlank = true
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
