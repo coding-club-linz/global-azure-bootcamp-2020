@@ -9,5 +9,5 @@ ppedv ist seit 1997 Microsoft Gold Learning Partner mit Passion für Entwicklert
 
 ppedv GmbH  
 Märzstraße 1 / 1.DG  
-1150 Wien  
+A-1150 Wien  
 [ppedv.at](https://ppedv.at/)

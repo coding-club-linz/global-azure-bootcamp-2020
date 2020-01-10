@@ -16,6 +16,6 @@ In der Lean Start-Up Factory bieten wir kreativen Geistern eine wissenschaftlich
 Besonderen Wert legen wir auf eine kollaborative Kommunikationskultur im Team und mit unseren Kunden. Die Styria Media AG, Beiersdorf AG, Tieto Austria GmbH, thyssenkrupp AG, Recheis GembH oder auch die Ärztekammer Steiermark vertrauen auf unsere Lösungskompetenz.
 
 Guid.New  
-Raiffeisenstraße 214/3  
+Raiffeisenstraße 214 / 3  
 A-8041 Graz  
 [www.guidnew.com](https://www.guidnew.com)

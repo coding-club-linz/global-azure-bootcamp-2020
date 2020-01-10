@@ -11,5 +11,5 @@ Unsere Ziele decken sich mit unserer Leidenschaft: Wir sind immer danach bestreb
 
 HATAHET productivity solutions GmbH  
 Bartensteingasse 16 / 7  
-1010 Wien  
+A-1010 Wien  
 [www.hatahet.eu](https://www.hatahet.eu)
