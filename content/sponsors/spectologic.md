@@ -13,6 +13,4 @@ A-2380 Perchtoldsdorf
 [www.spectologic.eu](https://www.spectologic.eu)
 
 <a href="mailto:apollak@spectologic.com">apollak@spectologic.com</a><br/>
-[Blog](https://blog.spectologic.com/)  
-[Twitter](https://twitter.com/SpectoLogic)  
-[LinkedIn](https://www.linkedin.com/in/andipollak)
+[Blog](https://blog.spectologic.com/) | [Twitter](https://twitter.com/SpectoLogic) | [LinkedIn](https://www.linkedin.com/in/andipollak)
