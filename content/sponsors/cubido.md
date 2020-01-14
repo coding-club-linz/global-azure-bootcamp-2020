@@ -1,13 +1,17 @@
 ---
 title: "cubido"
 type: "Gold Sponsor"
-logo: "cubido.png"
+logo: "cubido.jpg"
 priority: 2
 ---
 
-Frischer Wind und “alte Hasen” - wir kombinieren jahrelange Erfahrung mit neuen, innovativen Ideen. Seit Jänner 2005 entwickeln rund 40 motivierte, kompetente Köpfe für Sie täglich individuelle Lösungen. Als Teil der ACP gelingt es uns optimal das ganze Spektrum von der Lizenzierung bis zur Infrastruktur aus einer Hand anzubieten. Die Vielzahl erfolgreich umgesetzter Projekte spricht für sich. Wir punkten darüberhinaus durch starke PartnerInnen an unserer Seite, wie zum Beispiel Microsoft, SAP, Theobald Software, Firestart und Evidanza. Darüberhinaus freuen wir uns über die Microsoft Partnerschaft mit Gold Kompetenz.
+Wir kombinieren jahrelange Erfahrung mit neuen, innovativen Ideen. Seit 15 Jahren sind wir erfolgreich für mittlere und große Unternehmen im deutschsprachigen Raum in den Bereichen Analytics und Development tätig.
 
-Wir legen größten Wert darauf, immer mit den aktuellsten Technologien und Tools zu arbeiten. Derzeit verwenden wir unter anderem: Angular7, Bootstrap, Cordova, Typescript, Javascript, Responsive Design, SQL, ASP.net, WPF, C#, SQL, Microsoft SSIS / SSRS / SSAS, Microsoft Power BI, SAP BusinessObjects, Microsoft Azure, Theobald, Business Process Management Systeme (z.B. Firestart) und “R”.
+Im Bereich Development setzen wir auf die Entwicklung von individuellen, hochspezialisierten Lösungen. Hierzu werden erprobte Standardkomponenten um projektspezifische Funktionen erweitert, sodass am Ende eine Lösung entsteht, die sich an den Unternehmensprozess des Kunden anpasst und nicht umgekehrt. So werden höchste Benutzerfreundlichkeit und eine nahtlose Anbindung an vorhandene Systeme gewährleistet. Auch für mobile Lösungen bieten wir leistungsstarke Lösungen auf Basis von Windows, iOs und Android.
+
+Wir legen größten Wert darauf, immer mit den aktuellsten Technologien und Tools zu arbeiten. Derzeit verwenden wir unter anderem: Angular, Bootstrap, Cordova, Typescript, Javascript, Responsive Design, ASP.net, WPF, C#, .NET, .NET Core, Swift, Capacitor, Data Bricks, Python, R, SQL, Microsoft SSIS / SSRS / SSAS, Microsoft PowerBI, SAP BusinessObjects, Microsoft Azure, Theobald, das BPM System FireStart und das RPA Tool UiPath.
+
+Als Experte im Bereich Analytics befassen wir uns auch mit der Sammlung, Analyse und Aufbereitung von Daten, um Anwendern optimale, strategische Entscheidungen zu erleichtern. Durch den Einsatz von Predictive Analytics und Data Science können zukünftige Trends und Entwicklungen vorhergesehen werden. Für die Visualisierung der Analyseergebnisse stellen wir die nötigen Werkzeuge wie zum Beispiel Power BI, ein Data Warehouse, usw. zur Verfügung. Wir unterstützen unsere Kunden dabei während des gesamten Analytics-Prozesses.
 
 cubido business solutions gmbh  
 Haidfeldstrasse 33  
