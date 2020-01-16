@@ -2,6 +2,7 @@
 title: "HATAHET"
 type: "Gold Sponsor"
 logo: "hatahet.png"
+logooverview: "hatahet-overview.png"
 priority: 2
 ---
 
