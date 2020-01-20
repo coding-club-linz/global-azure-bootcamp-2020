@@ -59,6 +59,7 @@ steps:
 
 - script: |
     ls -la
+    git status
     git add --all .
     git commit -m 'Update website'
     git push origin $(target_branch)
