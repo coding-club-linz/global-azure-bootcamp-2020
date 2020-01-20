@@ -6,7 +6,7 @@ pool:
 
 variables:
   hugo_version: '0.62.2'
-  target_branch: 'gh-pages'
+  target_branch: 'gh-pages-dev'
 
 steps:
 - checkout: self
@@ -24,6 +24,10 @@ steps:
         -O '$(Pipeline.Workspace)/hugo_$(hugo_version)_Linux-64bit.deb'
     sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
   displayName: 'Install Hugo'
+
+- script: |
+    curl https://sessionize.com/api/v2/pt2tdmzs/view/All > $(Build.SourcesDirectory)/data/sessionize.json
+  displayName: 'Download sessionize data'
 
 - script: |
     hugo
