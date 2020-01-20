@@ -42,6 +42,7 @@ steps:
   displayName: 'Copy build result to temp'
 
 - script: |
+    git reset --hard
     git checkout $(target_branch)
     rm -rf *
   displayName: 'Switch to $(target_branch) branch'
