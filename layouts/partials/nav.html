@@ -10,28 +10,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/gab2020.png" height="100%"></a>
+            <a class="navbar-brand page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#page-top"><img
+                    src="/img/gab2020.png" height="100%"></a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
+                    <a class="page-scroll"
+                        href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#call-for-speakers">Call for Speakers</a>
+                    <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#call-for-speakers">Call for
+                        Speakers</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
+                    <a class="page-scroll"
+                        href="{{ cond (eq .Page.Dir "") "" "/" }}#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#travel">{{ .Site.Params.navigation.links.location }}</a>
+                    <a class="page-scroll"
+                        href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
-                <li>
+                <li class="{{ cond (eq .Page.Dir "sessions\\") "active" "" }}">
+                    <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
+                </li>
+                <li class="{{ cond (eq .Page.Dir "sponsors\\") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
                 </li>
             </ul>
         </div>

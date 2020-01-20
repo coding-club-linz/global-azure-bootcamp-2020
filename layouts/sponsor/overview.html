@@ -6,7 +6,7 @@
 </head>
 
 <body id="page">
-    {{ partial "pagenav.html" . }}
+    {{ partial "nav.html" . }}
 
     <section id="sponsors" class="sponsors">
         <div class="container">
@@ -52,6 +52,8 @@
             {{ end }}
         </div>
     </section>
+
+    {{ partial "contact.html" . }}
 
     {{ partial "js.html" . }}
 </body>

@@ -39,6 +39,7 @@ googleAnalytics = ""
 			about     = "About"
 			tickets   = "Tickets"
             sponsors   = "Sponsors"
+			sessions   = "Sessions"
 			location  = "Location"
 			contact   = "Contact"
 

@@ -1,0 +1,207 @@
+{
+  "sessions": [
+    {
+      "id": "167745",
+      "title": "Stories of void",
+      "description": "TypeScript was designed to make the most sense out of any JavaScript code. Given the dynamic nature of JavaScript, this can lead to some very interesting typings that may seem odd at a first glance. One such thing is void. A concept that's well known in high-level programming languages, that takes a life of its own when used with TypeScript. The reason for that? Void in JavaScript! Join us to hear a story about tooling, program language design, static types, midlife crisis and undefined!",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "167801",
+      "title": "Azure Network deep dive",
+      "description": "Das Azure Network Design ist nicht nur wichtig für IaaS. Immer mehr PaaS Services finden sich im Netzwerk Design wieder. In dieser Session erfahren Sie, welche Netzwerk Design Möglichkeiten Sie in der Cloud haben und welche Umsetzungsvarianten in der realen Welt umgesetzt werden.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "172006",
+      "title": "Azure Stack - best practice - True Hybrid with IoT Hub",
+      "description": "Do you really need Stack or Azure. Just do a mix! I show some cool Demos with IoT Sensors.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d4d4edb1-4d65-4571-9ac1-b05588ab473f"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "174538",
+      "title": "Automated Machine Learning – do we need any more Data Scientists?",
+      "description": "What is really \"automated\" here? Do we need any Data Scientists and what's our (I'm such a Data Scientist) role in this scenario. A short overview over all the libraries available so far (H2O, auto_ml, Azure AutoML, ...).\r\n\r\nHow and why (?) does it work (giving an overview)? What is the difference between the different libraries and concepts? What is this thing doing exactly? Look at tools like Power BI, Azure ML Workspace, ...\r\n\r\nThese methods left the early stage of their development and are becoming more and more mature. Many tools are already relying on the work of this algorithms. But is this AI? Really? We will see....",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f21baecf-1b61-4e0b-8fb8-71894f39022b"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null
+    }
+  ],
+  "speakers": [
+    {
+      "id": "d4d4edb1-4d65-4571-9ac1-b05588ab473f",
+      "firstName": "Denninger",
+      "lastName": "Stefan",
+      "bio": "Stefan is a senior Cloud Architect with a 20 years’ experience in running IT. In the last years, he focused on Hybrid Cloud Solutions, because these are the solutions which are most complex and variety is the maximum.\r\nThis is the field he feels comfortable. As he started with networking staff like configuring Cisco Routers and later with MS Biztalk Server bringing Business Processes to modern environments, the bandwidth is perfect for Hybrid Solutions.\r\nThe latest projects were all based on Microsoft Azure and local Environments like Azure Pack or even now on Azure Stack.\r\nHis blog can be found at http://blog.denninger.at or on Twitter @stefandenninger \r\n\r\nSince August 2019 he is awared as an Azure MVP!! \r\nSince April 2018 he is also awarded to be an Microsoft Regional Director ;)\r\n",
+      "tagLine": "Digital Evangelist, MVP & RD, P-CSA",
+      "profilePicture": "https://sessionize.com/image?f=9366e1ca7b2c5d9c9e58f87de0d084ea,400,400,1,0,b1-4d65-4571-9ac1-b05588ab473f.0be617f9-e71e-4505-85ed-7b199b570666.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/stefandenninger",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/stefan-denninger-9764451/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://blog.denninger.at/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.acp.de/digital",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        172006
+      ],
+      "fullName": "Denninger Stefan",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1d18ea23-d6dc-4600-bbae-2916afebb0d7",
+      "firstName": "Hannes",
+      "lastName": "Lagler-Gruener",
+      "bio": "Hannes Lagler-Gruener ist ein Senior Cloud Architect mit einer jahrelangen Erfahrung in der Beratung von Hybrid Cloud Szenarien. \r\nIn den letzten Jahren beschäftigt sich Hannes Lagler-Gruener mit den Themen Hybrid und Multi Cloud mit der Fokussierung auf #Azure, #AWS und #Google.\r\nDie Schwerpunkte der public Cloud liegen im Bereich IaaS, Governance, Security und Automatisierung.\r\nHannes startete seine IT Karriere in der internen IT bei den größeren Banken in Österreich. \r\nEin wichtiger Wendepunkt in seiner Karriere war, als Hannes 2013 seine Karriere als Enterprise Consultant bei #Microsoft Österreich startete. \r\nAktuell arbeitet Hannes Lagler-Gruener bei der Firma ACP IT Solutions GMBH als Multi Cloud Innovations Expert\r\nSie finden seinen Blog unter http://cloudblogger.at oder auf Twitter unter @HannesLagler",
+      "tagLine": "ACP IT Solutions GMBH, Multi Cloud Architect ",
+      "profilePicture": "https://sessionize.com/image?f=bd0dc6de6340955eddc0057dccc350ab,400,400,1,0,23-d6dc-4600-bbae-2916afebb0d7.bf60c4a5-d841-41cc-bb84-e8254f0308e6.jpeg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://www.twitter.com/HannesLagler",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://at.linkedin.com/in/hannesl1",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://cloudblogger.at",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "http://www.acp.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        167801
+      ],
+      "fullName": "Hannes Lagler-Gruener",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f21baecf-1b61-4e0b-8fb8-71894f39022b",
+      "firstName": "Mario",
+      "lastName": "Schnalzenberger",
+      "bio": "Mario Schnalzenberger ist seit fast 25 Jahren in der IT-Industrie tätig und setzt sich seit über 15 Jahren im Bereich Statistik und Big Data als auch im Predictive Bereich mit vielseitigen Lösungen auseinander. Seit fünf Jahren ist er im cubido-Team und unterstützt die Kunden in diesem spannenden Umfeld. Mario hat Abschlüsse in Statistik, Volkswirtschaftslehre und Sozial- und Wirtschaftswissenschaften. Er unterrichtet(e) an mehreren Universitäten und Hochschulen in Österreich sowie der HTL Leonding. Er trägt regelmäßig bei verschiedensten Konferenzen in den vielfältigen Themen der angewandten Statistik, Informatik, IOT und AI vor.",
+      "tagLine": "Data Scientist, cubido business solutions GmbH",
+      "profilePicture": "https://sessionize.com/image?f=18eb1974a683c6abc1a6a1dcf08674cb,400,400,1,0,cf-1b61-4e0b-8fb8-71894f39022b.9b093955-7b4d-46d3-bb17-06226b342b59.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/mario_s07",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.cubido.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        174538
+      ],
+      "fullName": "Mario Schnalzenberger",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f62f9691-37cd-4ca6-81f1-14c7234ab46e",
+      "firstName": "Stefan",
+      "lastName": "Baumgartner",
+      "bio": "Stefan Baumgartner works at Dynatrace. He writes for Manning, Smashing Magazine and A List Apart and made the Kessel run in less than 12 parsecs.\r\n\r\nIn his spare time, he organizes ScriptConf and DevOne in Linz, and co-hosts the German language Working Draft podcast. Stefan enjoys Italian food, Belgian beer and British vinyl records.",
+      "tagLine": "Internet Batman at Dynatrace",
+      "profilePicture": "https://sessionize.com/image?f=3473ff91db2e813ec79f5312bb7ca059,400,400,1,0,91-37cd-4ca6-81f1-14c7234ab46e.731cbb55-9496-4ae7-b38a-cfb57575f560.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ddprrt",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/stefan-baumgartner-bb621564/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://fettblog.eu",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://tsconf.eu",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        167745
+      ],
+      "fullName": "Stefan Baumgartner",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [],
+  "categories": [],
+  "rooms": []
+}
