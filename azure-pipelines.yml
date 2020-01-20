@@ -6,7 +6,7 @@ pool:
 
 variables:
   hugo_version: '0.62.2'
-  target_branch: 'gh-pages'
+  target_branch: 'gh-pages-dev'
 
 steps:
 - checkout: self
@@ -58,6 +58,7 @@ steps:
   displayName: 'Create CNAME file for GitHub Pages'
 
 - script: |
+    ls -la
     git add --all .
     git commit -m 'Update website'
     git push origin $(target_branch)
