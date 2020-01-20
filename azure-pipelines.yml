@@ -26,6 +26,10 @@ steps:
   displayName: 'Install Hugo'
 
 - script: |
+    curl https://sessionize.com/api/v2/pt2tdmzs/view/All > $(Build.SourcesDirectory)/data/sessionize.json
+  displayName: 'Download sessionize data'
+
+- script: |
     hugo
   displayName: 'Build'
 
@@ -38,6 +42,7 @@ steps:
   displayName: 'Copy build result to temp'
 
 - script: |
+    git reset --hard
     git checkout $(target_branch)
     rm -rf *
   displayName: 'Switch to $(target_branch) branch'
@@ -54,6 +59,9 @@ steps:
   displayName: 'Create CNAME file for GitHub Pages'
 
 - script: |
+    ls -la
+    git status
+    cat .gitignore
     git add --all .
     git commit -m 'Update website'
     git push origin $(target_branch)
