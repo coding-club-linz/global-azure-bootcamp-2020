@@ -640,7 +640,7 @@ body {
 }
 
 /* Speakers */
-.sessions p.text-muted {
+.sessions p.text-muted, .speakers p.text-muted {
     font-size: 16px;
 }
 
