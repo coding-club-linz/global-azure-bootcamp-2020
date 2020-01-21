@@ -28,6 +28,9 @@
                     <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
+                <li class="{{ cond (eq .Page.Dir "speakers\\") "active" "" }}">
+                        <a href="/speakers">{{ .Site.Params.navigation.links.speakers }}</a>
+                    </li>
                 <li class="{{ cond (eq .Page.Dir "sessions\\") "active" "" }}">
                     <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
                 </li>
