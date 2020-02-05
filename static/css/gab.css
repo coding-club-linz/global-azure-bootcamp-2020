@@ -619,6 +619,11 @@ body {
     width: 80%;
 }
 
+.sponsors img.prio4 {
+    max-width: 150px;
+    width: 80%;
+}
+
 .sponsors a img {
     transition: all 0.4s ease-in-out;
 }
