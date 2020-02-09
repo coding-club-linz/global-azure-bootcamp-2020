@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body id="page">
+    {{ partial "nav.html" . }}
+
+    <section id="junior-bootcamp" class="junior-bootcamp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Junior Bootcamp</h2>
+
+                    <hr class="primary">
+
+                    <p class="text-muted">Am 24. April 2019 werden im Rahmen des Global Azure Bootcamps auf der ganzen
+                        Welt hunderte Workshops zum Thema Cloud Computing und Microsoft Azure stattfinden. In Linz
+                        machen wir parallel zu dieser Veranstaltung auch wieder das <b>Junior Bootcamp</b>, das sich an <b>junge
+                        Coder zwischen 13 und 17 Jahren</b> richtet.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-muted">Habt ihr <b>schon etwas Erfahrung beim Programmieren</b> (z.B. mit Scratch,
+                        JavaScript, Python oder Ähnlichem)? Dann könnt Ihr im Junior Bootcamp zum ersten Mal
+                        Konferenz-Luft schnuppern. Ihr verbringt den Tag mit vielen Entwicklungs-Profis und könnt von
+                        international gefragten Expertinnen und Experten lernen.</p>
+                    <hr class="primary">
+                    <p class="text-muted text-center">Die Teilnahme am Event ist dank der Sponsoren kostenlos.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    {{ partial "schedule-junior.html" . }}
+
+    {{ partial "tickets-junior.html" . }}
+
+    {{ partial "location-junior.html" . }}
+
+    {{ partial "sponsors.html" . }}
+
+    {{ partial "contact.html" . }}
+
+    {{ partial "js.html" . }}
+</body>
+
+</html>
