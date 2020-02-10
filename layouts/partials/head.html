@@ -13,6 +13,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+<meta property="og:title" content="{{ .Site.Title }}"/>
+<meta property="og:image" content="{{ "/img/gab2020.png" | absURL }}"/>
+{{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}"/>{{ end }}
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
+
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 
