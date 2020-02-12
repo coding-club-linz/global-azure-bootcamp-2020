@@ -10,4 +10,4 @@ Time cockpit ist eine Projektzeiterfassung für Knowledge Worker. Grafischer Zei
 software architects gmbh  
 Welser Straße 26  
 A-4060 Leonding  
-[www.timecockpit.at](https://www.timecockpit.at)
+[www.timecockpit.at](https://www.timecockpit.com)

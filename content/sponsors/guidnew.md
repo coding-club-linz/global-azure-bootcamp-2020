@@ -18,4 +18,4 @@ Besonderen Wert legen wir auf eine kollaborative Kommunikationskultur im Team un
 Guid.New  
 Raiffeisenstraße 214 / 3  
 A-8041 Graz  
-[www.guidnew.com](https://www.guidnew.com)
+[www.guidnew.com](https://guidnew.com)
