@@ -704,3 +704,13 @@ body {
 .schedule {
     margin-top: 20px;
 }
+
+#junior-bootcamp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.70)), url("../img/hero.png");
+    backdrop-filter: grayscale(30%);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
