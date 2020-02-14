@@ -1,92 +1,20 @@
 {
   "sessions": [
     {
-      "id": "167745",
-      "title": "Stories of void",
-      "description": "TypeScript was designed to make the most sense out of any JavaScript code. Given the dynamic nature of JavaScript, this can lead to some very interesting typings that may seem odd at a first glance. One such thing is void. A concept that's well known in high-level programming languages, that takes a life of its own when used with TypeScript. The reason for that? Void in JavaScript! Join us to hear a story about tooling, program language design, static types, midlife crisis and undefined!",
+      "id": "184199",
+      "title": "Authentifizierung für Cloud Connected IoT Devices",
+      "description": "Bügeleisen, Waschmaschinen, Zahnbürsten, E-Roller und vieles mehr, immer größer wird die Anzahl der kleinen und großen Gadgets die das persönliche und geschäftliche Umfeld prägen. So hilfreich viele dieser Devices auch sind, stelle sie, ob ihrer oft fehlenden, bzw. sehr rudimentären Userinterfaces, eine neue Herausforderung dar, was das sichere Authentifizieren gegen ihre Cloud Dienste betrifft dar.",
       "startsAt": null,
       "endsAt": null,
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
+        "cff627a2-1b05-43ad-a0ba-a690e18c006e"
       ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null
-    },
-    {
-      "id": "167801",
-      "title": "Azure Network deep dive",
-      "description": "Das Azure Network Design ist nicht nur wichtig für IaaS. Immer mehr PaaS Services finden sich im Netzwerk Design wieder. In dieser Session erfahren Sie, welche Netzwerk Design Möglichkeiten Sie in der Cloud haben und welche Umsetzungsvarianten in der realen Welt umgesetzt werden.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
+      "categoryItems": [
+        35850,
+        35852
       ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null
-    },
-    {
-      "id": "167940",
-      "title": "Modern Authentication with OpenID Connect",
-      "description": "When developing for modern service landscapes we need to deal with terms like OAuth, OpenID Connect, JWT, Bearer Tokens and more. In this vast landscape auth possibilities for authentication, it is easy to get lost. This session helps to understand and use the principles that underly modern authentication flows.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "3e016c7b-3341-46d0-b2cf-46efe4b029e8"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null
-    },
-    {
-      "id": "169859",
-      "title": "Build state of the art APIs with GraphQL and Azure Functions",
-      "description": "GraphQL is a query language designed to build  applications by providing an intuitive and flexible syntax and system for describing their data requirements and interactions. GitHub utilizes GraphQL as API because it offers greater adaptability for the developers. The choice to absolutely produce the data that a client needs is an incredible advantage over sending numerous REST calls to get the same. In this session you will learn how you can combine the strength of GraphQL with the power and scalability of the Azure platform to build state of the art APIs.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "0092a46f-0bb9-4d51-bf9f-ae964bec00f1"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null
-    },
-    {
-      "id": "172006",
-      "title": "Azure Stack - best practice - True Hybrid with IoT Hub",
-      "description": "Do you really need Stack or Azure. Just do a mix! I show some cool Demos with IoT Sensors.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "d4d4edb1-4d65-4571-9ac1-b05588ab473f"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null
-    },
-    {
-      "id": "173010",
-      "title": "Cosmos DB - Verwandlungskünstler unter den Datenbanken",
-      "description": "CosmosDB, der Verwandlungskünstler unter den NoSQL-Datenbanken. CosmosDB ist eine globale verteilte hochskalierbare und performante Datenbank die noch dazu einfach zu verwenden ist. Aufwendige Konfigurationen und Wartung der Infrastruktur entfallen, denn hierbei handelt es sich um einen verwalteten Datenbankdienst. In dieser Session erfahren sie mehr über die verschiedenen Kostüme der Datenbank und einige der einzigartigen Features der CosmosDB.\r\n",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "6b3a5dfb-fd19-4b8d-82c8-67775d6acbef"
-      ],
-      "categoryItems": [],
       "questionAnswers": [],
       "roomId": null
     },
@@ -101,52 +29,118 @@
       "speakers": [
         "f21baecf-1b61-4e0b-8fb8-71894f39022b"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        35850,
+        43221
+      ],
       "questionAnswers": [],
       "roomId": null
     },
     {
-      "id": "175597",
-      "title": "Getting started with SQL Server automation - dbaTools",
-      "description": "We'll take a look at what PowerShell has to offer for SQL Server. What can PowerShell do \"out of the box\", what functionality can you easily extend?\r\nTo deepen the insights we do a \"speed dating\" with various PowerShell commands in different fields of activity. From CSV import to version upgrade to checking SQL server settings. ",
+      "id": "178242",
+      "title": "Azure DevOps & GitHub im praxisnahen Überblick",
+      "description": "Die meisten Entwicklungsteams stehen heute unter einem hohen Druck. Mit wenig Ressourcen müssen Funktionen rasch und in hoher Qualität entwickelt werden. Damit dieser Spagat gelingt, braucht es die richtigen Tools. In dieser Session zeigt Gerwald Oberleitner, wie sich Microsoft durch Kombination von Azure DevOps, GitHub und Microsoft Teams moderne Entwicklungsprozesse vorstellt. Gerwald gibt auch Tipps, wie sich durch OSS-Komponenten und Tools aus dem Marktplatz Produktivität und Qualität noch weiter steigern lassen.",
       "startsAt": null,
       "endsAt": null,
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "e6a8eea0-b8c5-45ff-950f-982ef8392096"
+        "1b368aed-8889-4338-b892-408a47afb2e5"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        35850,
+        35852
+      ],
       "questionAnswers": [],
       "roomId": null
     },
     {
-      "id": "175649",
-      "title": "Mit Power BI Daten Modellen richtig umgehen",
-      "description": "Power BI ist ein Self-Service Business Intelligenz Werkzeug und versteckt daher so manche Komplexität vor dem Benutzer. Wenn es um Performance, aber auch die richtigen Berechnungen geht, sollte man sich aber Zeit für die Modellierung der Tabellen und deren Beziehungen nehmen. In dieser Session machen wir genau das. Wir finden Antworten auf die Fragen: Warum sollte ich mir Gedanken über das Datenmodell machen? Welche Art von Beziehungen gibt es? Wie wirken sich diese auf die Performance aus? Warum ist Redundanz (k)eine schlechte Sache?",
+      "id": "167801",
+      "title": "Azure Network deep dive",
+      "description": "Das Azure Network Design ist nicht nur wichtig für IaaS. Immer mehr PaaS Services finden sich im Netzwerk Design wieder. In dieser Session erfahren Sie, welche Netzwerk Design Möglichkeiten Sie in der Cloud haben und welche Umsetzungsvarianten in der realen Welt umgesetzt werden.",
       "startsAt": null,
       "endsAt": null,
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "0b456caf-b754-47c8-bfab-e8a34bda8efb"
+        "1d18ea23-d6dc-4600-bbae-2916afebb0d7"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        35850,
+        35852
+      ],
       "questionAnswers": [],
       "roomId": null
     },
     {
-      "id": "176447",
-      "title": "Microsoft Blazor Update",
-      "description": "Erst mit Blazor 3.2 wird auch die Webassembly Implementierung als JavaScript freies SPA final nutzbar. Damit kommen Erleichterungen für UI Entwurf und debugging direkt aus Visual Studio. Ergänzt wird Blazor mit einem völlig neuen Web Service Konzept gRPC, komplettiert mit Server Push: SignalR. ",
+      "id": "172006",
+      "title": "Azure Stack - best practice - True Hybrid with IoT Hub",
+      "description": "Do you really need Stack or Azure. Just do a mix! I show some cool Demos with IoT Sensors.",
       "startsAt": null,
       "endsAt": null,
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9b94c7ff-ae95-4374-a098-efd445a4a66e"
+        "d4d4edb1-4d65-4571-9ac1-b05588ab473f"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "169859",
+      "title": "Build state of the art APIs with GraphQL and Azure Functions",
+      "description": "GraphQL is a query language designed to build  applications by providing an intuitive and flexible syntax and system for describing their data requirements and interactions. GitHub utilizes GraphQL as API because it offers greater adaptability for the developers. The choice to absolutely produce the data that a client needs is an incredible advantage over sending numerous REST calls to get the same. In this session you will learn how you can combine the strength of GraphQL with the power and scalability of the Azure platform to build state of the art APIs.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0092a46f-0bb9-4d51-bf9f-ae964bec00f1"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "178120",
+      "title": "Containers and You: The Azure Edition",
+      "description": "Many applications are moving towards a container-based approach and with good reason: containers allow us to separate our applications’ environmental concerns from the application itself.\r\n\r\nInstead of worrying about how to configure our application to run on different target environments, we can explicitly state those needs in code and have that environment automatically created for us!\r\n\r\nAzure provides four container services to help us adopt the container-based approach for our own applications:\r\n\r\n- Azure Container Instances\r\n- Azure Web App for Containers\r\n- Azure Container Registry\r\n- Azure Kubernetes Service\r\n\r\nIn this talk, we'll go over what each of these services are, how they are (and aren't!) related to and work with each other, and how you can get started building your own containerized applications.\r\n\r\nYou'll leave with a better understanding of the services Azure provides to create and deploy containerized applications and be excited to start building your own once you're back at your computer!",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a378b580-baef-4c58-a9b3-589139c88159"
+      ],
+      "categoryItems": [
+        35850,
+        43221
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "173010",
+      "title": "Cosmos DB - Verwandlungskünstler unter den Datenbanken",
+      "description": "CosmosDB, der Verwandlungskünstler unter den NoSQL-Datenbanken. CosmosDB ist eine globale verteilte hochskalierbare und performante Datenbank die noch dazu einfach zu verwenden ist. Aufwendige Konfigurationen und Wartung der Infrastruktur entfallen, denn hierbei handelt es sich um einen verwalteten Datenbankdienst. In dieser Session erfahren sie mehr über die verschiedenen Kostüme der Datenbank und einige der einzigartigen Features der CosmosDB.\r\n",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6b3a5dfb-fd19-4b8d-82c8-67775d6acbef"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
       "questionAnswers": [],
       "roomId": null
     },
@@ -161,12 +155,302 @@
       "speakers": [
         "a115f4fa-5dbf-45f2-a1b5-4a47802b0664"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "176925",
+      "title": "From Excel to modern, Azure-based web app in 40 Minutes",
+      "description": "We (two presenters) are going to perform a quick and funny transition from a standard excel document (as you can find it in many companies) to a modern web based business application hosted fully on Azure (some parts will be prepared of course). Azure technogolies used: Azure SQL Server Database, Azure Web App (ASP.NET Core) for the middleware, Azure Web App (Angular 8/9) for the web app, Azure AD Authentification, Swagger Code Gen, Azure BlobStorage for images/documents/..., maybe Azure functions (for database triggers or BlobStorage image transitions for preview images), Application Insights for middleware and web app",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4887e049-4fd6-4b9c-b3ee-ce97699d034f",
+        "64614724-ffae-4bc7-a1cd-8dff41f13fa0"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "175597",
+      "title": "Getting started with SQL Server automation - dbaTools",
+      "description": "We'll take a look at what PowerShell has to offer for SQL Server, Azure SQL and Managed DBs. What can PowerShell do \"out of the box\", what functionality can you easily extend? To deepen the insights we do a \"speed dating\" with various PowerShell commands in different fields of activity. From CSV import to version upgrade to checking SQL server settings.\r\n",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e6a8eea0-b8c5-45ff-950f-982ef8392096"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "176948",
+      "title": "LUIS als Lebensretter",
+      "description": "Mit Hilfe des Language Understanding Service (LUIS) aus den Azure Cognitive Services wird ein Modell trainiert, das natürliche Sprache verstehen und interpretieren kann.\r\nIn dieser Deep Dive-Session zeigt Roman Schacherl viele Features und demonstriert, wie LUIS in Einsatzleitstellen helfen kann, Notrufe rascher abzuwickeln.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "215d7eef-de12-4228-891c-677811fa9d4a"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "182995",
+      "title": "Master PowerShell with Azure Automation Accounts",
+      "description": "IT-Admins can automate with tools as PowerShell. With Azure Automation Accounts we get one step further: In this session Toni shows typical management and governance tasks automated with PowerShell scripts in a secure and automated way. Configure your runbooks in Azure Automation Accounts and secure, execute, schedule, and monitor your scripts in a controlled environment. If you are already a Powershell master, you will love Azure Automation Accounts and walk away with the wish to migrate your scripts instantly!",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "dcdd324e-6134-416f-bdee-893343bfa8b6"
+      ],
+      "categoryItems": [
+        35850,
+        43221
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "176447",
+      "title": "Microsoft Blazor Update",
+      "description": "Erst mit Blazor 3.2 wird auch die Webassembly Implementierung als JavaScript freies SPA final nutzbar. Damit kommen Erleichterungen für UI Entwurf und debugging direkt aus Visual Studio. Ergänzt wird Blazor mit einem völlig neuen Web Service Konzept gRPC, komplettiert mit Server Push: SignalR. ",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9b94c7ff-ae95-4374-a098-efd445a4a66e"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "175649",
+      "title": "Mit Power BI Daten Modellen richtig umgehen",
+      "description": "Power BI ist ein Self-Service Business Intelligenz Werkzeug und versteckt daher so manche Komplexität vor dem Benutzer. Wenn es um Performance, aber auch die richtigen Berechnungen geht, sollte man sich aber Zeit für die Modellierung der Tabellen und deren Beziehungen nehmen. In dieser Session machen wir genau das. Wir finden Antworten auf die Fragen: Warum sollte ich mir Gedanken über das Datenmodell machen? Welche Art von Beziehungen gibt es? Wie wirken sich diese auf die Performance aus? Warum ist Redundanz (k)eine schlechte Sache?",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0b456caf-b754-47c8-bfab-e8a34bda8efb"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "179269",
+      "title": "Neue Besen kehren besser – Unser Weg zu Microservices, DevOps und Cloud",
+      "description": "„Es hat sich bewährt!“ – DAS Totschlagargument für Veränderungen schlechthin.\r\nBewährte Technologien, bewährte Methoden, bewährte Abläufe.\r\nWir alle kennen sie und zugegeben, wir haben auch sehr gut damit gelebt…lange genug!\r\nWir berichten von unserem Bruch mit „Bewährtem“ und dem Weg in eine Welt von Microservice-Architekturen, DevOps und Cloud-Computing.\r\nTechnische, organisatorische und zwischenmenschliche Hürden und Herausforderungen stehen im Mittelpunkt unserer Erzählungen und reichen vom Umgang mit Ängsten, Zweifeln und Datensicherheit bis hin zu Proxys, No-Cloud-Strategien und hybriden Cloud-Architekturen. \r\n",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4823a5de-ed59-49c6-b7cc-b34ddb97a265",
+        "bc3949b7-0776-4173-a90d-1cc2b27eb79d"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "182608",
+      "title": "Power Plattform „The DEV Stack“",
+      "description": "Die Power-Plattform bietet mit „Canvas“ und „Model – Driven“ Apps eine gute Basis für No-Code oder Low-Code Anwendungen. Doch was tun, wenn komplexe Anforderungen nicht mittels einfachem Customizing und Formulardesignern umgesetzt werden können, oder der Kunde einfach nur ein anderes Input-Control (wie zB. eine maskierte IBAN-Eingabe) benötigt, als welche im Standard verfügbar wären. \r\n\r\nWir zeigen wie mithilfe des Power Apps Component Framework (PCF), Model – Driven Apps professionell erweiterbar sind. \r\nSchnell zusammengeklickt und ohne eine Zeile Code geschrieben zu haben geraten Test und Qualitätssicherung schnell mal in den Hintergrund. \r\n\r\nIn dieser Session möchten wir deshalb nicht nur Entwicklung, sondern auch Integration, Tests und Deployments der Komponenten auf Basis von Azure DevOps beleuchten. \r\n",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c1653796-b395-4ece-82c6-cc6069270204"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "167940",
+      "title": "Securing your Application with OpenID Connect",
+      "description": "When developing for modern service landscapes we need to deal with terms like OAuth, OpenID Connect, JWT, Bearer Tokens and more. In this vast landscape auth possibilities for authentication, it is easy to get lost. This session helps to understand and use the principles that underly modern authentication flows.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3e016c7b-3341-46d0-b2cf-46efe4b029e8"
+      ],
+      "categoryItems": [
+        35850,
+        43221
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "177840",
+      "title": "Serverless != Stateless",
+      "description": "Ursprünglich waren serverless functions für kurzlebige und zustandslose Abläufe gedacht. Mit der Einführung von \"Durable Functions\" und \"Durable Entities\" können nun aber auch komplexere Problemstellungen mithilfe von Azure Functions gelöst werden. In einem durchgängigen Beispiel zeigt Daniel Sklenitzka, wie parallele Workflows mit menschlicher Interaktion umgesetzt werden können.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0c0f1582-e4d4-4a48-98be-ef1a03cb84d6"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "180513",
+      "title": "Serverless Application Integration - Azure and Power Platform",
+      "description": "In dieser Session befassen wir uns mit Serverless Code zur Applikationsintegration. Allen voran Azure Functions und Azure Service Bus. Wir zeigen, wie wir diese Technologien erfolgreich bei großen Integrationsprojekten einsetzen, um CRM mit anderen Applikationen zu integrieren und um eine eventbasierte und asynchrone Integrationsarchitektur zu schaffen. Wir halten uns hier an das „Smart Endpoints and Dumb Pipes“-Paradigma der Microservices Architektur. Mit Hilfe der Azure Functions gelingt es lose gekoppelte Microservices zur Integration zu schreiben, die hoch performant und skalierbar sind. Azure bietet mittlerweile unzählige Optionen zur Applikationsintegration und wir werden einen kurzen Streifzug über die anderen Möglichkeiten machen (Power Automate, Logic Apps, Event Grid, Web Jobs).",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3d104e27-3e44-4f05-a7f8-8d12017631fe"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "167745",
+      "title": "Stories of void",
+      "description": "TypeScript was designed to make the most sense out of any JavaScript code. Given the dynamic nature of JavaScript, this can lead to some very interesting typings that may seem odd at a first glance. One such thing is void. A concept that's well known in high-level programming languages, that takes a life of its own when used with TypeScript. The reason for that? Void in JavaScript! Join us to hear a story about tooling, program language design, static types, midlife crisis and undefined!",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f62f9691-37cd-4ca6-81f1-14c7234ab46e"
+      ],
+      "categoryItems": [
+        35850,
+        43221
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "177887",
+      "title": "The Next Frontier: Microfrontends!",
+      "description": "The architecture pattern of microservices can be found in many modern system landscapes, which offers flexibility for the backend services. On the other side, the frontend is very often realized as a monolith.\r\n\r\nWe present an example implementation of a highly modular frontend architecture based on microfrontends running in Azure, which mirrors the dynamic of a modern microservices backend with some crucial differences.\r\n\r\nWe will also introduce our concept for CI/CD with microfrontends, where Azure DevOps helps us to get from an idea to having a new feature online within minutes.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "23b4de46-3d46-4a19-b480-8706c16451b4"
+      ],
+      "categoryItems": [
+        35850,
+        43221
+      ],
+      "questionAnswers": [],
+      "roomId": null
+    },
+    {
+      "id": "178339",
+      "title": "Von Angular zu Blazor - Ein Erfahrungsbericht",
+      "description": "Blazor ist ein vielversprechendes Framework zum Entwickeln von Single-Page Web-Applikationen. Das Besondere an Blazor ist, dass nicht JavaScript oder TypeScript als Programmiersprache verwendet wird, sondern C#. Damit ermöglicht Blazor eine Full-Stack Entwicklung in .NET und die Wiederverwendung bestehender .NET Bibliotheken.\r\n\r\nBei Guid.New ist Angular die erste Wahl, wenn es um Client-Side Entwicklung geht. Wir haben uns gefragt, ob Blazor für gewisse Einsatzgebiete eine ernstzunehmende Alternative zu Angular sein kann. Eine Alternative, mit der wir Projekte ohne Technologiebruch effizient umsetzen können. Das hat uns motiviert ein bestehendes Kundenprojekt von Angular auf Blazor zu portieren.\r\n\r\nIn diesem Vortrag stellen wir unsere praktische Erkenntnisse aus dieser Portierung dar, und versuchen auf die folgenden Fragen Antwort zu geben:\r\n- Wie ernstzunehmend ist Blazor als Alternative zu Angular?\r\n- Unter welchen Bedingungen bietet Blazor Vorteile im Vergleich zu Angular?\r\n- Wie strukturiert man eine Blazor Anwendung, sodass sie unter Client-Side sowie Server-Side Blazor optimal laufen kann?",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ac0835a1-1d90-42f5-b4b3-b02a18281ec5",
+        "158a03ad-6ef0-4caa-a34a-bd78f76d3112"
+      ],
+      "categoryItems": [
+        35850,
+        35852
+      ],
       "questionAnswers": [],
       "roomId": null
     }
   ],
   "speakers": [
+    {
+      "id": "a378b580-baef-4c58-a9b3-589139c88159",
+      "firstName": "Adrienne",
+      "lastName": "Tacke",
+      "bio": "Adrienne Braganza Tacke is a Filipina software engineer, international speaker, and published author of the book Coding for Kids: Python. She is also a LinkedIn Learning instructor who specializes in Azure and Cloud Development courses. She takes great delight in solving complex problems and building awesome things, particularly with C# and JavaScript. Most of all, she relishes the opportunity to teach anyone about code.\r\n\r\nBonus Fun Facts: her favorite PC/video games are Age of Empires II, RollerCoaster Tycoon 2, and the Borderlands series; her favorite lipstick color is Bite's Aubergine; her favorite movies are Inception (really, anything be Christopher Nolan) and The Matrix.",
+      "tagLine": "Filipina Software Engineer & Published Author that believes knowledge is power.",
+      "profilePicture": "https://sessionize.com/image?f=8e2276a6a941518f77fa8c7a7387d83a,400,400,1,0,80-baef-4c58-a9b3-589139c88159.70a38ce0-d334-45ba-a3c3-1dd6673af07c.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/AdrienneTacke",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/adriennetacke/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://www.adrienne.io",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        178120
+      ],
+      "fullName": "Adrienne Tacke",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
     {
       "id": "6b3a5dfb-fd19-4b8d-82c8-67775d6acbef",
       "firstName": "Andreas",
@@ -201,6 +485,33 @@
         173010
       ],
       "fullName": "Andreas Pollak",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "158a03ad-6ef0-4caa-a34a-bd78f76d3112",
+      "firstName": "Bernd",
+      "lastName": "Hirschmann",
+      "bio": "Co-Founder and Software Architect at Guid.New GmbH, Organizer of Microsoft Developer User Group Graz",
+      "tagLine": "Co-Founder and Software Architect @ Guid.New",
+      "profilePicture": "https://sessionize.com/image?f=0517711544f6cd751a2419b20f819bcc,400,400,1,0,ad-6ef0-4caa-a34a-bd78f76d3112.01c6463c-f936-44fa-a703-728332cd7fee.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/berhir",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://guidnew.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        178339
+      ],
+      "fullName": "Bernd Hirschmann",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -242,39 +553,105 @@
       "questionAnswers": []
     },
     {
-      "id": "d4d4edb1-4d65-4571-9ac1-b05588ab473f",
-      "firstName": "Denninger",
-      "lastName": "Stefan",
-      "bio": "Stefan is a senior Cloud Architect with a 20 years’ experience in running IT. In the last years, he focused on Hybrid Cloud Solutions, because these are the solutions which are most complex and variety is the maximum.\r\nThis is the field he feels comfortable. As he started with networking staff like configuring Cisco Routers and later with MS Biztalk Server bringing Business Processes to modern environments, the bandwidth is perfect for Hybrid Solutions.\r\nThe latest projects were all based on Microsoft Azure and local Environments like Azure Pack or even now on Azure Stack.\r\nHis blog can be found at http://blog.denninger.at or on Twitter @stefandenninger \r\n\r\nSince August 2019 he is awared as an Azure MVP!! \r\nSince April 2018 he is also awarded to be an Microsoft Regional Director ;)\r\n",
-      "tagLine": "Digital Evangelist, MVP & RD, P-CSA",
-      "profilePicture": "https://sessionize.com/image?f=9366e1ca7b2c5d9c9e58f87de0d084ea,400,400,1,0,b1-4d65-4571-9ac1-b05588ab473f.0be617f9-e71e-4505-85ed-7b199b570666.jpg",
+      "id": "3d104e27-3e44-4f05-a7f8-8d12017631fe",
+      "firstName": "Christoph",
+      "lastName": "Stiedl",
+      "bio": "Christoph Stiedl arbeitet seit 13 Jahren bei EMAKINA CEE / k.section business solutions gmbh als CRM Consultant. Als CRM Team/Tech Lead mit Fokus auf Dynamics 365 CE (=MS Dynamics CRM) hat er sich auf Integrations- und BI Themen spezialisiert. Architekturdesign für Integrationsprojekte (rund um CRM) mittels asynchroner, eventbasierter Applikationsintegration (Message Broker wie dem Azure Service Bus, IBM MQ, Apache ActiveMQ, TIBCO) zählt zu seinen Schwerpunkten.",
+      "tagLine": "EMAKINA CEE, CRM Team/Tech Lead",
+      "profilePicture": "https://sessionize.com/image?f=feb8afef432728bb9b6de2d3428ac12c,400,400,1,0,def3b814-36ce-44f1-896f-7e870f969095.jpg",
       "isTopSpeaker": false,
       "links": [
         {
-          "title": "Twitter",
-          "url": "https://twitter.com/stefandenninger",
-          "linkType": "Twitter"
-        },
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/stefan-denninger-9764451/",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://blog.denninger.at/",
-          "linkType": "Blog"
-        },
-        {
           "title": "Company Website",
-          "url": "https://www.acp.de/digital",
+          "url": "https://emakinacee.com/",
           "linkType": "Company_Website"
         }
       ],
       "sessions": [
-        172006
+        180513
       ],
-      "fullName": "Denninger Stefan",
+      "fullName": "Christoph Stiedl",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "0c0f1582-e4d4-4a48-98be-ef1a03cb84d6",
+      "firstName": "Daniel",
+      "lastName": "Sklenitzka",
+      "bio": "Daniel Sklenitzka ist Gründungsmitglied und Gesellschafter der softaware gmbh und unterrichtet nebenberuflich an der FH Oberösterreich .NET und Software Architektur. Außerdem hält er auch immer wieder Schulungen zu diesen Themen und ist Autor mehrerer Fachartikel.",
+      "tagLine": "softaware gmbh",
+      "profilePicture": "https://sessionize.com/image?f=d334d5cbfd3b4e7d662de76247057334,400,400,1,0,82-e4d4-4a48-98be-ef1a03cb84d6.f2a85388-8afa-403a-9040-d2518c4d05bc.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://www.softaware.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        177840
+      ],
+      "fullName": "Daniel Sklenitzka",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "23b4de46-3d46-4a19-b480-8706c16451b4",
+      "firstName": "Florian",
+      "lastName": "Rappl",
+      "bio": "Dr. Florian Rappl is Solution Architect for IoT and distributed web applications at smapiot. His main interest lies in the creation of innovative architectures that scale in development and usage. He won several prizes for his work and is a Microsoft MVP in the area of development technologies. He regularly blogs and writes articles for popular magazines and  websites in the web development space.",
+      "tagLine": "Solution Architect at smapiot",
+      "profilePicture": "https://sessionize.com/image?f=93578d62b3d91c6be79022ca531fa5db,400,400,1,0,46-3d46-4a19-b480-8706c16451b4.bf309e87-59e8-490f-8e26-bc8a4fe34829.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/FlorianRappl",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://florian-rappl.de",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://smapiot.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        177887
+      ],
+      "fullName": "Florian Rappl",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1b368aed-8889-4338-b892-408a47afb2e5",
+      "firstName": "Gerwald",
+      "lastName": "Oberleitner",
+      "bio": "Gerwald Oberleitner ist in der Technical Sales Gruppe von Microsoft beschäftigt und verantwortet den technischen Vertrieb für Entwicklerdienste in der Microsoft Azure Cloud und Visual Studio. Über 15 Jahre Projekterfahrung in der Software- und Netzwerkindustrie sind ein guter Grundstock um Kunden, Partner bzw. unabhängige Softwarehersteller (ISVs) in die Cloud zu „begleiten“. Schwerpunkte im Bereich von Microsoft Azure sind: Dev/Test & Azure DevOps, Visual Studio App Center und Dienste für Entwickler wie AppServices, Application Insights, API Management sowie Container und Serverless (Azure Functions, Logic Apps). ",
+      "tagLine": "Mr. DevOps",
+      "profilePicture": "https://sessionize.com/image?f=72021508db2d39be01bbf9b4794d888d,400,400,1,0,ed-8889-4338-b892-408a47afb2e5.3f2e9dcc-2aa2-4f45-a773-705d055fb50a.JPG",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/gerwaldo/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.azure.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        178242
+      ],
+      "fullName": "Gerwald Oberleitner",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -316,6 +693,114 @@
       "questionAnswers": []
     },
     {
+      "id": "9b94c7ff-ae95-4374-a098-efd445a4a66e",
+      "firstName": "Hannes",
+      "lastName": "Preishuber",
+      "bio": "finest coding since 35 years",
+      "tagLine": "ceo ppedv",
+      "profilePicture": "https://sessionize.com/image?f=72e9e5509e14587bd9e6f5935fc5f26a,400,400,1,0,ff-ae95-4374-a098-efd445a4a66e.27fe4f91-93cf-46f0-8679-3eb208c91966.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/hannespreishub",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/hannespreishuber",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://blog.ppedv.de/author/hannesp",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://ppedv.de",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        176447
+      ],
+      "fullName": "Hannes Preishuber",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "ac0835a1-1d90-42f5-b4b3-b02a18281ec5",
+      "firstName": "Igor",
+      "lastName": "Rončević",
+      "bio": "I ❤ programming. In it, I feel most creative.",
+      "tagLine": "Software Architect @ AVL",
+      "profilePicture": "https://sessionize.com/image?f=f10ae3d7ca1c4dc9a358f176108a633c,400,400,1,0,a1-1d90-42f5-b4b3-b02a18281ec5.0ec52de6-3537-447f-bb28-b236b84a435c.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ironcev_",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "http://thp.im",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        178339
+      ],
+      "fullName": "Igor Rončević",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4887e049-4fd6-4b9c-b3ee-ce97699d034f",
+      "firstName": "Klemens",
+      "lastName": "Schwarz",
+      "bio": "Solutions Architect at Pataky Software GmbH since 2018\r\nSoftware developer and UI specialist since 2004\r\nEducated in the University of Applied Sciences Austria, Hagenberg from 2000-2004",
+      "tagLine": "Solutions Architect at Pataky Software GmbH",
+      "profilePicture": "https://sessionize.com/image?f=246f415363f6fea01e7665ca27fd449b,400,400,1,0,49-4fd6-4b9c-b3ee-ce97699d034f.e6badf3c-8683-4477-8f6a-295e65374a59.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://www.paso-solutions.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        176925
+      ],
+      "fullName": "Klemens Schwarz",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "64614724-ffae-4bc7-a1cd-8dff41f13fa0",
+      "firstName": "Lara",
+      "lastName": "Sperrer",
+      "bio": "Software Engineer since 2018\r\nHTBLA Grieskirchen",
+      "tagLine": "Solutions Engineer at PASO Solutions",
+      "profilePicture": "https://sessionize.com/image?f=91e1f7a9722d26b5e933d442b011ace5,400,400,1,0,24-ffae-4bc7-a1cd-8dff41f13fa0.b06db2cf-a6d8-48bf-a241-7bf0b5252be2.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://www.paso-solutions.com/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        176925
+      ],
+      "fullName": "Lara Sperrer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "a115f4fa-5dbf-45f2-a1b5-4a47802b0664",
       "firstName": "Manfred",
       "lastName": "Steyer",
@@ -349,6 +834,33 @@
         176484
       ],
       "fullName": "Manfred Steyer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4823a5de-ed59-49c6-b7cc-b34ddb97a265",
+      "firstName": "Maria",
+      "lastName": "Strasser",
+      "bio": "Maria Strasser ist seit über 10 Jahren bei der PROGRAMMIERFABRIK GmbH tätig. Durch die Mitarbeit an einem der ersten großen agilen Software-Projekte im öffentlichen Bereich bringt sie langjährige Erfahrung in der agilen Softwareentwicklung mit. Aufgrund neuer Projektherausforderungen beschäftigt sie sich mit modernen Software-Architekturen sowie Entwicklungspraktiken und begleitet firmenintern als auch ihre Kunden beim Design und der Modernisierung der Softwareumgebungen. Ihre Interessen sind vielfältig und reichen von Software-Architektur und Testautomatisierung bis hin zu Organisations- und Persönlichkeitsentwicklung.  ",
+      "tagLine": "PROGRAMMIERFABRIK GmbH",
+      "profilePicture": "https://sessionize.com/image?f=b6999948c4764286c198a90099a71b93,400,400,1,0,de-ed59-49c6-b7cc-b34ddb97a265.c693e90e-b94f-4c9e-b0e7-6d1c9b31fc01.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/strasser_maria",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.programmierfabrik.at/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        179269
+      ],
+      "fullName": "Maria Strasser",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -413,6 +925,28 @@
         175649
       ],
       "fullName": "Markus Ehrenmüller-Jensen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "bc3949b7-0776-4173-a90d-1cc2b27eb79d",
+      "firstName": "Markus",
+      "lastName": "Eßmayr",
+      "bio": "Markus Eßmayr hat über 20 Jahre Erfahrung als Softwareentwickler im Bankenumfeld.\r\nIn seiner beruflichen Laufbahn kam er mit den unterschiedlichsten Methoden, Werkzeugen und Vorgehensweisen in Berührung und hat Applikationen auf Basis verschiedener Technologien erstellt, die auf vielfältige Betriebsszenarien ausgelegt sein mussten.\r\nDabei hat er auch den Wandel von traditioneller zu agiler Vorgehensweise vollzogen und die vielschichtigen Herausforderungen und Auswirkungen erlebt.\r\nDie PROGRAMMIERFABRIK GmbH begleitet er nun auf der Reise zum zuverlässigen Cloud-Partner und ihre Kunden in die Welt von DevOps.",
+      "tagLine": "PROGRAMMIERFABRIK GmbH",
+      "profilePicture": "https://sessionize.com/image?f=936a123778a95e4da159493b48aada55,400,400,1,0,b7-0776-4173-a90d-1cc2b27eb79d.eb339cb8-df9c-411f-978a-98542db813d2.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://programmierfabrik.at/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        179269
+      ],
+      "fullName": "Markus Eßmayr",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -486,39 +1020,56 @@
       "questionAnswers": []
     },
     {
-      "id": "9b94c7ff-ae95-4374-a098-efd445a4a66e",
-      "firstName": "Preishuber",
-      "lastName": "Hannes",
-      "bio": "Coding since 35 years",
-      "tagLine": "ceo ppedv",
-      "profilePicture": "https://sessionize.com/image?f=72e9e5509e14587bd9e6f5935fc5f26a,400,400,1,0,ff-ae95-4374-a098-efd445a4a66e.27fe4f91-93cf-46f0-8679-3eb208c91966.jpg",
+      "id": "cff627a2-1b05-43ad-a0ba-a690e18c006e",
+      "firstName": "Raphael",
+      "lastName": "Schwarz",
+      "bio": "I am a freelance software consultant/solution architect for over 12 Years now and my main focus is, helping my customers design sustainable solutions and overcome the barriers they hit when using new, modern technologies and frameworks lacking the expertise and experience of using them in the field.",
+      "tagLine": "codeworx gmbh",
+      "profilePicture": "https://sessionize.com/image?f=83a6cf8c29e216c8d4e9057d654e9952,400,400,1,0,a2-1b05-43ad-a0ba-a690e18c006e.33d2ecdc-8a40-41c6-af49-4bd8c57aa8d4.png",
       "isTopSpeaker": false,
       "links": [
         {
-          "title": "Twitter",
-          "url": "https://twitter.com/hannespreishub",
-          "linkType": "Twitter"
-        },
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/hannespreishuber",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://blog.ppedv.de/author/hannesp",
-          "linkType": "Blog"
-        },
-        {
           "title": "Company Website",
-          "url": "https://ppedv.de",
+          "url": "http://www.codeworx.at",
           "linkType": "Company_Website"
         }
       ],
       "sessions": [
-        176447
+        184199
       ],
-      "fullName": "Preishuber Hannes",
+      "fullName": "Raphael Schwarz",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "215d7eef-de12-4228-891c-677811fa9d4a",
+      "firstName": "Roman",
+      "lastName": "Schacherl",
+      "bio": "Roman Schacherl ist Gründer und Geschäftsführer der Firma softaware gmbh und entwickelt mit seinem Team maßgeschneiderte Softwarelösungen vorwiegend im Microsoft-Umfeld. Zusätzlich ist er Autor eines Buchs und mehrerer Fachartikel, nebenberuflich Lehrender an der FH Oberösterreich und als Sprecher auf Entwicklerkonferenzen im deutschsprachigen Raum tätig. Roman Schacherl wurde bereits 6x mit dem Microsoft MVP-Award ausgezeichnet.",
+      "tagLine": "softaware gmbh",
+      "profilePicture": "https://sessionize.com/image?f=dcbd70493ef744a2115fe04259d2087a,400,400,1,0,ef-de12-4228-891c-677811fa9d4a.fe621ea5-1008-4fd2-8d0e-2089ca2ca5a9.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/rschacherl",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://www.softaware.at/blog/blog",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.softaware.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        176948
+      ],
+      "fullName": "Roman Schacherl",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -558,9 +1109,142 @@
       "fullName": "Stefan Baumgartner",
       "categoryItems": [],
       "questionAnswers": []
+    },
+    {
+      "id": "d4d4edb1-4d65-4571-9ac1-b05588ab473f",
+      "firstName": "Stefan",
+      "lastName": "Denninger",
+      "bio": "Stefan is a senior Cloud Architect with a 20 years’ experience in running IT. In the last years, he focused on Hybrid Cloud Solutions, because these are the solutions which are most complex and variety is the maximum.\r\nThis is the field he feels comfortable. As he started with networking staff like configuring Cisco Routers and later with MS Biztalk Server bringing Business Processes to modern environments, the bandwidth is perfect for Hybrid Solutions.\r\nThe latest projects were all based on Microsoft Azure and local Environments like Azure Pack or even now on Azure Stack.\r\nHis blog can be found at http://blog.denninger.at or on Twitter @stefandenninger \r\n\r\nSince August 2019 he is awared as an Azure MVP!! \r\nSince April 2018 he is also awarded to be an Microsoft Regional Director ;)\r\n",
+      "tagLine": "Digital Evangelist, MVP & RD, P-CSA",
+      "profilePicture": "https://sessionize.com/image?f=9366e1ca7b2c5d9c9e58f87de0d084ea,400,400,1,0,b1-4d65-4571-9ac1-b05588ab473f.0be617f9-e71e-4505-85ed-7b199b570666.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/stefandenninger",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/stefan-denninger-9764451/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://blog.denninger.at/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.acp.de/digital",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        172006
+      ],
+      "fullName": "Stefan Denninger",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "dcdd324e-6134-416f-bdee-893343bfa8b6",
+      "firstName": "Toni",
+      "lastName": "Pohl",
+      "bio": "Toni Pohl is responsible for solutions development at atwork.at. He has worked as an independent IT expert and is experienced in implementing competently technical projects. Toni's passion is toward web technologies, IT-processes and Microsoft Office 365 and Microsoft Azure and he is blogging, writing and speaking at conferences such as Ignite and many more. Toni is recognized as a Microsoft MVP for Azure and Office Development.",
+      "tagLine": "@atwork",
+      "profilePicture": "https://sessionize.com/image?f=0e69715bc902b5035357a483d4cc8007,400,400,1,0,4e-6134-416f-bdee-893343bfa8b6.3b18f3ee-7612-476f-8f84-ad9e395169fe.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/atwork",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://blog.atwork.at",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.atwork.at",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        182995
+      ],
+      "fullName": "Toni Pohl",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c1653796-b395-4ece-82c6-cc6069270204",
+      "firstName": "Wolfgang",
+      "lastName": "Lumetsberger",
+      "bio": "Wolfgang Lumetsberger ist Cloud Solution Specialist bei smartpoint IT consulting GmbH.\r\nServerless Computing mit Azure Functions, Storage oder Integrationen von Azure und der Power-Plattform beschäftigen Ihn. \r\nCloud ist eben eine Leidenschaft.\r\n",
+      "tagLine": "smartpoint bewegt digitales",
+      "profilePicture": "https://sessionize.com/image?f=178f9cab7a53d9ca32e0f965399bb991,400,400,1,0,96-b395-4ece-82c6-cc6069270204.94710d86-bcbc-4301-8c59-b909e74e0f0b.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Company Website",
+          "url": "https://www.smartpoint.at/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        182608
+      ],
+      "fullName": "Wolfgang Lumetsberger",
+      "categoryItems": [],
+      "questionAnswers": []
     }
   ],
   "questions": [],
-  "categories": [],
+  "categories": [
+    {
+      "id": 18583,
+      "title": "Track",
+      "items": [
+        {
+          "id": 35850,
+          "name": "Main Conference",
+          "sort": 0
+        },
+        {
+          "id": 35851,
+          "name": "Junior Bootcamp",
+          "sort": 1
+        }
+      ],
+      "sort": 0,
+      "type": "session"
+    },
+    {
+      "id": 18584,
+      "title": "Language",
+      "items": [
+        {
+          "id": 35852,
+          "name": "German",
+          "sort": 2
+        },
+        {
+          "id": 35853,
+          "name": "Englisch",
+          "sort": 3
+        },
+        {
+          "id": 43221,
+          "name": "English",
+          "sort": 4
+        }
+      ],
+      "sort": 1,
+      "type": "session"
+    }
+  ],
   "rooms": []
 }
