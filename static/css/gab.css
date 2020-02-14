@@ -165,6 +165,18 @@ aside {
     background-color: transparent;
 }
 
+@media (max-width: 767px) {
+    .table td,
+    .table th {
+        display: block;
+    }
+
+    .schedule tr td:first-of-type {
+        font-weight: bold;
+        background-color: #444;
+    }
+}
+
 /* #page .navbar-default.affix, #page .navbar-default.affix-top {
     border-color: rgba(34, 34, 34, .05);
     background-color: #fff;
@@ -650,7 +662,8 @@ body {
 }
 
 /* Speakers */
-.sessions p.text-muted, .speakers p.text-muted {
+.sessions p.text-muted,
+.speakers p.text-muted {
     font-size: 16px;
 }
 
