@@ -1,0 +1,34 @@
+{
+    "rooms": [
+        {
+          "id": 11856,
+          "name": "Saal 11 (108)",
+          "roomNumber": 11,
+          "sort": 1
+        },
+        {
+          "id": 11857,
+          "name": "Saal 12 (91)",
+          "roomNumber": 12,
+          "sort": 2
+        },
+        {
+          "id": 11858,
+          "name": "Saal 13 (86)",
+          "roomNumber": 13,
+          "sort": 3
+        },
+        {
+          "id": 11859,
+          "name": "Saal 14 (108)",
+          "roomNumber": 14,
+          "sort": 4
+        },
+        {
+          "id": 11860,
+          "name": "Saal 3 (86)",
+          "roomNumber": 3,
+          "sort": 5
+        }
+      ]
+}

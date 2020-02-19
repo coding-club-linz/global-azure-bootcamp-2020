@@ -1,0 +1,59 @@
+{
+    "timeslots": [
+        {
+            "startsAt": "2020-04-24T08:00:00",
+            "endsAt": "2020-04-24T09:00:00",
+            "isServiceTimeslot": true
+        },
+        {
+            "startsAt": "2020-04-24T09:00:00",
+            "endsAt": "2020-04-24T09:30:00",
+            "isServiceTimeslot": true
+        },
+        {
+            "startsAt": "2020-04-24T09:35:00",
+            "endsAt": "2020-04-24T10:25:00",
+            "isServiceTimeslot": false
+        },
+        {
+            "startsAt": "2020-04-24T10:25:00",
+            "endsAt": "2020-04-24T10:45:00",
+            "isServiceTimeslot": true
+        },
+        {
+            "startsAt": "2020-04-24T10:45:00",
+            "endsAt": "2020-04-24T11:35:00",
+            "isServiceTimeslot": false
+        },
+        {
+            "startsAt": "2020-04-24T11:40:00",
+            "endsAt": "2020-04-24T12:30:00",
+            "isServiceTimeslot": false
+        },
+        {
+            "startsAt": "2020-04-24T12:30:00",
+            "endsAt": "2020-04-24T13:30:00",
+            "isServiceTimeslot": true
+        },
+        {
+            "startsAt": "2020-04-24T13:30:00",
+            "endsAt": "2020-04-24T14:20:00",
+            "isServiceTimeslot": false
+        },
+        {
+            "startsAt": "2020-04-24T14:25:00",
+            "endsAt": "2020-04-24T15:15:00",
+            "isServiceTimeslot": false
+        },
+        {
+            "startsAt": "2020-04-24T15:15:00",
+            "endsAt": "2020-04-24T15:40:00",
+            "isServiceTimeslot": true
+        },
+        {
+            "startsAt": "2020-04-24T15:40:00",
+            "endsAt": "2020-04-24T16:30:00",
+            "isServiceTimeslot": false
+        }
+    ]
+}
