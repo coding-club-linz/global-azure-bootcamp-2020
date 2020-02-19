@@ -170,11 +170,6 @@ aside {
     .table th {
         display: block;
     }
-
-    .schedule tr td:first-of-type {
-        font-weight: bold;
-        background-color: #444;
-    }
 }
 
 /* #page .navbar-default.affix, #page .navbar-default.affix-top {
@@ -678,12 +673,20 @@ body {
 }
 
 .sessions .avatar img,
-.speakers .avatar img {
+.speakers .avatar img,
+.schedule-speaker .avatar img {
     width: 100%;
     max-width: 160px;
     border-radius: 50%;
     margin-top: 20px;
     box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-speaker .avatar img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .speakers .speaker {
@@ -718,6 +721,58 @@ body {
     margin-top: 20px;
 }
 
+.schedule td.visible-xs, .schedule th.visible-xs {
+    display: none!important;
+}
+
+.schedule th {
+    white-space: nowrap;
+}
+
+.schedule tr.service-session td {
+    background-color: #444;
+}
+
+.schedule td.service-session {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.schedule .service-session-time {
+    margin-right: 15px;
+}
+
+.schedule .session {
+    font-size: 15px;
+}
+
+.schedule .session .label {
+    margin-right: 5px;
+}
+
+.schedule .session a {
+    text-decoration: none;
+}
+
+.schedule .timeslot {
+    padding-bottom: 10px;
+    font-size: 12px;
+    opacity: 0.66;
+}
+
+.schedule .speaker {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.schedule .speaker span[onclick] {
+    cursor: pointer;
+}
+
+.schedule .speaker span[onclick]:hover, .schedule .session a:hover {
+    text-decoration: underline;
+}
+
 #junior-bootcamp {
     background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.70)), url("../img/hero.png");
     backdrop-filter: grayscale(30%);
@@ -726,4 +781,15 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .schedule tr td:first-of-type {
+        font-weight: bold;
+        background-color: #444;
+    }
+
+    .schedule td.visible-xs, .schedule th.visible-xs {
+        display: block!important;
+    }
 }
