@@ -784,7 +784,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .schedule tr td:first-of-type {
+    .schedule:not(.schedule-junior) tr td:first-of-type {
         font-weight: bold;
         background-color: #444;
     }
@@ -792,4 +792,12 @@ body {
     .schedule td.visible-xs, .schedule th.visible-xs {
         display: block!important;
     }
+}
+
+.footer-content {
+    padding-left: 0;
+}
+
+.footer-content li {
+    list-style-type: none;
 }
