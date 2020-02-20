@@ -53,6 +53,12 @@
                         {{ end }}
                         {{ end }}
                     </p>
+                    <p>
+                        <div class="text-muted timeslot">
+                            Theater {{ (index (where $.Site.Data.rooms.rooms "id" .roomId) 0).roomNumber }},
+                            {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
+                        </div>
+                    </p>
                     <p class="text-muted">{{ .description }}</p>
 
                     {{ range where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
