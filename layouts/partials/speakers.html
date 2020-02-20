@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
-<head>
-    {{ partial "head.html" . }}
-</head>
-
-<body id="page">
-    {{ partial "nav.html" . }}
-
-    <section id="speakers" class="speakers">
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section id="speakers" class="speakers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -67,14 +58,3 @@
 
         </div>
     </section>
-
-    {{ partial "tickets.html" . }}
-
-    {{ partial "sponsors.html" . }}
-
-    {{ partial "contact.html" . }}
-
-    {{ partial "js.html" . }}
-</body>
-
-</html>

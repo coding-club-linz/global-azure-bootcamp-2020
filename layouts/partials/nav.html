@@ -26,16 +26,14 @@
                 </li>
                 <li>
                     <a class="page-scroll"
+                        href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
                 </li>
                 <li class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}">
                     <a href="/junior-bootcamp">{{ .Site.Params.navigation.links.juniorBootcamp }}</a>
-                </li>
-                <li class="{{ cond (eq .Page.Dir "speakers\\") "active" "" }}">
-                    <a href="/speakers">{{ .Site.Params.navigation.links.speakers }}</a>
-                </li>
-                <li class="{{ cond (eq .Page.Dir "sessions\\") "active" "" }}">
-                    <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
                 </li>
                 <li class="{{ cond (eq .Page.Dir "sponsors\\") "active" "" }}">
                     <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>

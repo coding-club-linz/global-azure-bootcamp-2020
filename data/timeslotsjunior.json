@@ -23,7 +23,8 @@
         {
             "startsAt": "2020-04-24T15:15:00",
             "endsAt": "2020-04-24T15:40:00",
-            "isServiceTimeslot": true
+            "isServiceTimeslot": true,
+            "description": "Pause"
         },
         {
             "startsAt": "2020-04-24T15:40:00",

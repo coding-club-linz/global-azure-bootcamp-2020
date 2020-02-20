@@ -1,8 +1,8 @@
-<section id="time-table" class="bg-dark">
+<section id="schedule" class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Zeitplan</h2>
+                <h2 class="section-heading">Zeitplan Junior Bootcamp</h2>
                 <hr class="light">
                 <p>
                     Weitere Sessions und Vortragende werden wir in den nächsten Wochen veröffentlichen.
@@ -11,57 +11,42 @@
             </div>
 
             <div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0">
-                <!-- <table class="table schedule">
-                    <tr class="hidden-xs">
-                        <th></th>
-                        <th>Saal 3</th>
-                    </tr>
-                    <tr>
-                        <td>13:30 - 14:20</td>
-                        <td><span class="visible-xs">Saal 3: </span>Session 1</td>
-                    </tr>
-                    <tr>
-                        <td>14:25 - 15:25</td>
-                        <td><span class="visible-xs">Saal 3: </span>Session 2</td>
-                    </tr>
-                    <tr>
-                        <td>15:40 - 16:30</td>
-                        <td><span class="visible-xs">Saal 3: </span>Session 3</td>
-                    </tr>
-                    <tr>
-                        <td>ab 16:45</td>
-                        <td>Führung durch das Hollywood Megaplex<br /><br />Führung durch die Technik der Plus City: Photovoltaik, Brandschutz, Klimatechnik, ...<br><br>jeweils 30 - 45 Minuten, es kann nacheinander an beiden Führungen teilgenommen werden</td>
-                    </tr>
-                </table> -->
-                <table class="table schedule">
+                <table class="table schedule schedule-junior">
                     <!-- <tr class="hidden-xs">
                         {{ range $room := $.Site.Data.rooms.rooms }}
                         <th>Theater {{ .roomNumber }}</th>
                         {{ end }}
                     </tr> -->
-                    <tr class="service-session"><td class="service-session"><span class="service-session-time">12:30 - 13:30</span>Check-In</td></tr>
+                    <tr class="service-session">
+                        <td class="service-session"><span class="service-session-time">12:30 - 13:30</span>Check-In</td>
+                    </tr>
                     {{ range $timeslot := $.Site.Data.timeslotsjunior.timeslots }}
                     <tr class="{{ if eq $timeslot.isServiceTimeslot true }}service-session{{ end }}">
-                        
+
                         {{ if eq $timeslot.isServiceTimeslot true }}
                         <td colspan="1" class="service-session">
                             {{ range (where (where $.Site.Data.sessionize.sessions "isServiceSession" true ) "startsAt" $timeslot.startsAt) }}
-                            <span class="service-session-time">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}</span>{{ .title }}
+                            <span class="service-session-time">{{ dateFormat "15:04" .startsAt }} -
+                                {{ dateFormat "15:04" .endsAt }}</span>{{ $timeslot.description }}
                             {{ end }}
                         </td>
                         {{ end }}
 
                         {{ if eq $timeslot.isServiceTimeslot false }}
-                        <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}</td>
+                        <!-- <td class="visible-xs">{{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
+                        </td> -->
                         {{ range $room := $.Site.Data.roomsjunior.rooms }}
                         <td class="session">
                             {{ if eq (len (where (where ($.Site.Data.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt)) 0 }}
-                            Session wird in den nächsten Wochen bekanntgegeben.
+                            <div class="timeslot">Raum 3, {{ dateFormat "15:04" $timeslot.startsAt }} -
+                                {{ dateFormat "15:04" $timeslot.endsAt }}</div>
+                            wird in den nächsten Wochen bekanntgegeben
                             {{ end }}
 
                             {{ range (where (where ($.Site.Data.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
                             {{ if in .categoryItems 35851 }}
-                            <div class="timeslot">Theater {{ $room.roomNumber }}, {{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</div>
+                            <div class="timeslot">Raum {{ $room.roomNumber }},
+                                {{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</div>
 
                             {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" .categoryItems }}
                             {{ if eq .name "English" }}
@@ -83,6 +68,15 @@
                         {{ end }}
                     </tr>
                     {{ end }}
+                    <tr class="service-session">
+                        <td class="service-session"><span class="service-session-time">16:45 - 18:30</span>Technik in Plus City und Hollywood Megaplex</td>
+                    </tr>
+                    <tr>
+                        <!-- <td class="visible-xs">16:45 - 18:30</td> -->
+                        <td>Führung durch das Hollywood Megaplex<br /><br />Führung durch die Technik der Plus City:
+                            Photovoltaik, Brandschutz, Klimatechnik, ...<br><br>jeweils 30 - 45 Minuten, es kann
+                            nacheinander an beiden Führungen teilgenommen werden</td>
+                    </tr>
                 </table>
             </div>
         </div>
