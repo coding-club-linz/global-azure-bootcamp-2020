@@ -801,3 +801,7 @@ body {
 .footer-content li {
     list-style-type: none;
 }
+
+.covid {
+    color: yellow;
+}
