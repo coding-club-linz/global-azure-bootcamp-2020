@@ -242,7 +242,7 @@ header {
     /* min-height: auto; */
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6)), url("../img/hero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../img/hero-virtual.jpg");
     backdrop-filter: grayscale(30%);
     background-position: center;
     -webkit-background-size: cover;
@@ -730,7 +730,7 @@ body {
 }
 
 .schedule tr.service-session td {
-    background-color: #444;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .schedule td.service-session {
@@ -774,7 +774,7 @@ body {
 }
 
 #junior-bootcamp {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.70)), url("../img/hero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../img/hero-virtual.jpg");
     backdrop-filter: grayscale(30%);
     background-position: center;
     -webkit-background-size: cover;
