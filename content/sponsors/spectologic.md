@@ -1,8 +1,8 @@
 ---
 title: "SpectoLogic"
-type: "Silver Sponsor"
+type: "Gold Sponsor"
 logo: "spectologic.png"
-priority: 3
+priority: 2
 ---
 
 Andreas is an Azure Enthusiast and founder of SpectoLogic® supporting customers developing solutions on Microsoft Azure. Passionate about CosmosDB, IoT and loves to work with Visual Studio, Visual Studio Team Services and to explore new Azure Services.

@@ -5,7 +5,7 @@
                 <h2 class="section-heading">Schedule</h2>
                 <hr class="light">
                 <p>
-                    Below is a listing of the preliminary conference schedule. Actual agenda times may be changed without notice.
+                    Below is a listing of the preliminary conference schedule. Until mid April we will provide a new schedule for the virtual event with links to join the <a href="https://zoom.us/webinar" target="_blank">Zoom video webinars</a>.
                 </p>
                 <p>Browse the <a href="/sessions">session catalog</a>.</p>
             </div>
@@ -36,7 +36,8 @@
                         <td class="session">
                             {{ range (where (where (where $.Site.Data.sessionize.sessions "isServiceSession" false ) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
                             {{ if in .categoryItems 35850 }}
-                            <div class="timeslot">Theater {{ $room.roomNumber }},
+                            <div class="timeslot">
+                                <!--Theater {{ $room.roomNumber }}, -->
                                 {{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</div>
 
                             {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" .categoryItems }}

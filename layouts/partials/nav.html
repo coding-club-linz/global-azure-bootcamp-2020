@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#page-top"><img
-                    src="/img/gab2020.png" height="100%"></a>
+                    src="/img/gab2020-virtual.png" height="100%"></a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -20,18 +20,21 @@
                     <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
-                </li>
+                </li> -->
                 <li>
                     <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
                 </li>
-                <li>
+                <li class="{{ cond (eq .Page.Dir "sessions\\") "active" "" }}">
+                    <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
+                </li>
+                <!-- <li>
                     <a class="page-scroll"
                         href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
-                </li>
+                </li> -->
                 <li class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}">
                     <a href="/junior-bootcamp">{{ .Site.Params.navigation.links.juniorBootcamp }}</a>
                 </li>

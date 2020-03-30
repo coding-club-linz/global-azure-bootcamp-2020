@@ -1,11 +1,13 @@
-<section id="schedule" class="bg-dark">
+<section id="schedule" class="bg-primary">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Zeitplan Junior Bootcamp</h2>
                 <hr class="light">
                 <p>
-                    Weitere Sessions und Vortragende werden wir in den nächsten Wochen veröffentlichen.
+                    Hier findet ihr den vorläufigen Zeitplan. Weitere Sessions und Vortragende sowie die Teilnahmelinks
+                    zu den <a href="https://zoom.us/webinar" target="_blank">Zoom Video Webinaren</a> werden wir bis
+                    Mitte April veröffentlichen.
                 </p>
 
             </div>
@@ -38,14 +40,14 @@
                         {{ range $room := $.Site.Data.roomsjunior.rooms }}
                         <td class="session">
                             {{ if eq (len (where (where ($.Site.Data.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt)) 0 }}
-                            <div class="timeslot">Raum 3, {{ dateFormat "15:04" $timeslot.startsAt }} -
+                            <div class="timeslot">{{ dateFormat "15:04" $timeslot.startsAt }} -
                                 {{ dateFormat "15:04" $timeslot.endsAt }}</div>
                             wird in den nächsten Wochen bekanntgegeben
                             {{ end }}
 
                             {{ range (where (where ($.Site.Data.sessionize.sessions) "roomId" .id ) "startsAt" $timeslot.startsAt) }}
                             {{ if in .categoryItems 35851 }}
-                            <div class="timeslot">Raum {{ $room.roomNumber }},
+                            <div class="timeslot">
                                 {{ dateFormat "15:04" $timeslot.startsAt }} - {{ dateFormat "15:04" .endsAt }}</div>
 
                             {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" .categoryItems }}
@@ -69,7 +71,8 @@
                     </tr>
                     {{ end }}
                     <tr class="service-session">
-                        <td class="service-session"><span class="service-session-time">16:45 - 18:30</span>Technik in Plus City und Hollywood Megaplex</td>
+                        <td class="service-session"><span class="service-session-time">16:45 - 18:30</span>Technik in
+                            Plus City und Hollywood Megaplex</td>
                     </tr>
                     <tr>
                         <!-- <td class="visible-xs">16:45 - 18:30</td> -->

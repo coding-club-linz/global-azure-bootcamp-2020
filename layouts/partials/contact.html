@@ -9,10 +9,10 @@
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
@@ -21,10 +21,10 @@
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#travel">{{ .Site.Params.navigation.links.location }}</a>
-                    </li>
+                    </li> -->
                     <li class="{{ cond (eq .Page.Dir "sessions\\") "active" "" }}">
                         <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
                     </li>
