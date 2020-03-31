@@ -1,8 +1,8 @@
 ---
 title: "Guid.New"
-type: "Silver Sponsor"
+type: "Gold Sponsor"
 logo: "guidnew.png"
-priority: 3
+priority: 2
 ---
 
 Guid.New steht als Unternehmen für die zielgerichtete Digitalisierung bestehenderund die strategische Schaffung neuer Geschäftsprozesse. Wir entwickeln individuelle Lösungen in drei Kernbereichen:
