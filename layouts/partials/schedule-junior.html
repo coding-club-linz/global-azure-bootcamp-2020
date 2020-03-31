@@ -19,9 +19,6 @@
                         <th>Theater {{ .roomNumber }}</th>
                         {{ end }}
                     </tr> -->
-                    <tr class="service-session">
-                        <td class="service-session"><span class="service-session-time">12:30 - 13:30</span>Check-In</td>
-                    </tr>
                     {{ range $timeslot := $.Site.Data.timeslotsjunior.timeslots }}
                     <tr class="{{ if eq $timeslot.isServiceTimeslot true }}service-session{{ end }}">
 
