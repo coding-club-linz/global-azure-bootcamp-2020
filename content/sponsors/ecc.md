@@ -16,6 +16,7 @@ Sign up now to our mailing list: [bit.ly/2w2gnFS](https://bit.ly/2w2gnFS)
 For enquiries please view [europeancloudconference.com](https://europeancloudconference.com) or email [info@europeancloudconference.com](mailto:info@europeancloudconference.com).
 
 European Cloud Conference  
+The Acropolis  
 1 esplanade Kennedy  
 06364 Nice  
 [europeancloudconference.com](https://europeancloudconference.com)
