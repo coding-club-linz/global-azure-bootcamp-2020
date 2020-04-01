@@ -40,7 +40,7 @@
             {{ if isset .Params "logooverview" }}
             {{ $logo = .Params.logooverview }}
             {{ end }}
-            <div class="col-sm-{{$cols}} col-sm-offset-0 col-xs-{{$colsXs}} col-xs-offset-{{$colsOffsetXs}} text-center">
+            <div class="col-sm-{{$cols}} col-sm-offset-0 col-xs-{{$colsXs}} col-xs-offset-{{$colsOffsetXs}} text-center sponsor-logo">
                 <p>
                     <a href="/sponsors#{{ .Params.title }}"><img class="prio{{.Params.priority}}"
                             src="/img/sponsors/{{ $logo }}" /></a>

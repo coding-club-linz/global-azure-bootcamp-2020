@@ -656,6 +656,11 @@ body {
     margin-bottom: 30px;
 }
 
+.sponsor-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* Speakers */
 .sessions p.text-muted,
 .speakers p.text-muted {
