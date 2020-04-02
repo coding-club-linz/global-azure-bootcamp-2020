@@ -38,6 +38,7 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			tickets   = "Tickets"
+			newsletter = "Newsletter"
 			schedule = "Schedule"
 			juniorBootcampSchedule = "Junior Bootcamp Schedule"
             sponsors   = "Sponsors"
