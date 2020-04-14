@@ -58,7 +58,7 @@
                             {{ dateFormat "15:04" .startsAt }} - {{ dateFormat "15:04" .endsAt }}
                         </div>
                     </p>
-                    <p class="text-muted">{{ .description }}</p>
+                    <p class="text-muted">{{ safeHTML  (replace .description "\r\n" "<br/>") }}</p>
 
                     {{ range where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
                     <h4>About {{ .firstName }} {{ .lastName }}</h4>

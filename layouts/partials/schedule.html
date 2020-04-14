@@ -1,3 +1,5 @@
+{{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
+{{ $streamingUrlQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Streaming URL") 0).id }}
 <section id="schedule" class="bg-dark">
     <div class="container">
         <div class="row">
@@ -5,7 +7,10 @@
                 <h2 class="section-heading">Schedule</h2>
                 <hr class="light">
                 <p>
-                    Below is a listing of the preliminary conference schedule. Until mid April we will provide a new schedule for the virtual event with links to join the <a href="https://products.office.com/de-at/microsoft-teams/group-chat-software" target="_blank">Microsoft Teams Live Events</a>.
+                    Below is a listing of the preliminary conference schedule. Until mid April we will provide a new
+                    schedule for the virtual event with links to join the <a
+                        href="https://products.office.com/de-at/microsoft-teams/group-chat-software"
+                        target="_blank">Microsoft Teams Live Events</a>.
                 </p>
                 <p>Browse the <a href="/sessions">session catalog</a>.</p>
             </div>
@@ -53,6 +58,22 @@
                                     onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
                                 {{ end }}
                             </div>
+
+                            {{ if eq (len .questionAnswers) 2 }}
+                            <div class="links">
+                                {{ range $question := .questionAnswers }}
+                                {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
+                                <a href="/ics/{{$question.answerValue}}.ics" download><i class="fa fa-calendar"
+                                        aria-hidden="true"></i>Add
+                                    to calendar</a>
+                                {{ end }}
+                                <a href="/sessions/{{$question.answerValue}}" target="_blank"><i
+                                        class="fa fa-video-camera" aria-hidden="true"></i>Open Microsoft Teams
+                                    live event</a>
+                                {{ end }}
+                            </div>
+                            {{ end }}
+
                             {{ end }}
                             {{ end }}
                         </td>
