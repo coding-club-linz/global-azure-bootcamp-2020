@@ -30,6 +30,12 @@ steps:
   displayName: 'Download sessionize data'
 
 - script: |
+    rm ./static/ics/*.ics
+    node ./utils/generate-ics.js
+    ls -la ./static/ics
+  displayName: 'Generate ICS files'
+
+- script: |
     hugo
   displayName: 'Build'
 
