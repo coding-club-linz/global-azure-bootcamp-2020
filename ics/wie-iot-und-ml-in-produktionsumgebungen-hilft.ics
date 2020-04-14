@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Warum die Dinge nicht so sind wie sie sein sollten? Wie IOT und ML in Produktionsumgebungen hilft\n\n---\n\nIn vielen Produktionsprozessen ist die frühzeitige Erkennung von Qualitätsproblemen ein wichtiger Faktor: zeitlich aber vor allem auch finanziell. Je früher im Prozess erkannt wird, dass die Werkstücke für die nächsten Prozessschritte nicht geeignet sind, desto eher kann darauf reagiert werden.\n\nEin 3D Drucker wird das Produktionsumfeld in unserem Szenario darstellen. Während des Druckvorgangs werden Sensorwerte, aber auch permanent Bilder des Druckvorgangs aufgezeichnet. Diese Daten verarbeiten wir mit einer Azure IoT Pipeline und wollen daraus Daten für die Qualitätsbestimmung sammeln. Nach einer lokalen Verarbeitung (Edge Device) werden die Daten  im Azure Data Lake gespeichert. \n\nWelche Erkenntnisse können aus den Daten gewonnen werden? Wie können diese verarbeitet und als Grundlage für Machine Learning Modelle genutzt werden? Mithilfe der Azure IoT und Analytics Platform stellen wir einen möglichen Weg zur Datenanalyse vor. \n\nIn Kombination mit den Bildern aus dem Produktionsprozess finden wir die Ursachen für Fehldrucke und können diese in weiteren Druckläufen vermeiden. Welche Arten von Daten und wie viele davon benötigt werden um zu fundierten Ergebnissen zu kommen werden wir mit Beispielen demonstrieren. \n\nFischen wir gemeinsam im Data Lake und nutzen das Potential der Daten! \n\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/wie-iot-und-ml-in-produktionsumgebungen-hilft
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T130000
+DTEND;VALUE=DATE-TIME:20200424T135000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Warum die Dinge nicht so sind wie sie sein sollten? Wie IOT und ML in Produktionsumgebungen hilft
 TRANSP:TRANSPARENT

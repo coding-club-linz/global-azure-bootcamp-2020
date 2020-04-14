@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:PowerPlatform Dataflows –PowerQuery (and more) in the Cloud\n\n---\n\nWith PowerPlatform dataflows, users can bring PowerQuery functionality to a cloud-only life. Created in the cloud, processed in the cloud and storing results in the cloud, dataflows can be seen as cloud native part of the ETL within the PowerPlatform. \nAfter their initial start in the Power BI universe, they now reached out into other parts of the PowerPlatform and be one of the future options of ETL pipelines to transfer data into data lakes. \nIn addition to data transformation, dataflows can be enriched with AI functionality to bring more ML power into your ETL processes. \nJoin this session if you want to learn more about the current feature set available and see what is new and possible with data preparation in the cloud with PowerPlatform dataflows. \n\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/power-platform-dataflows
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T150000
+DTEND;VALUE=DATE-TIME:20200424T155000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:PowerPlatform Dataflows –PowerQuery (and more) in the Cloud
 TRANSP:TRANSPARENT

@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Azure DevOps & GitHub im praxisnahen Überblick\n\n---\n\nDie meisten Entwicklungsteams stehen heute unter einem hohen Druck. Mit wenig Ressourcen müssen Funktionen rasch und in hoher Qualität entwickelt werden. Damit dieser Spagat gelingt, braucht es die richtigen Tools. In dieser Session zeigt Gerwald Oberleitner, wie sich Microsoft durch Kombination von Azure DevOps, GitHub und Microsoft Teams moderne Entwicklungsprozesse vorstellt. Gerwald gibt auch Tipps, wie sich durch OSS-Komponenten und Tools aus dem Marktplatz Produktivität und Qualität noch weiter steigern lassen.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/azure-devops-and-github
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T130000
+DTEND;VALUE=DATE-TIME:20200424T135000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Azure DevOps & GitHub im praxisnahen Überblick
 TRANSP:TRANSPARENT

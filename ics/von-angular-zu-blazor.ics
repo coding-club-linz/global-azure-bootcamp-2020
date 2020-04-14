@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Von Angular zu Blazor - Ein Erfahrungsbericht\n\n---\n\nBlazor ist ein vielversprechendes Framework zum Entwickeln von Single-Page Web-Applikationen. Das Besondere an Blazor ist, dass nicht JavaScript oder TypeScript als Programmiersprache verwendet wird, sondern C#. Damit ermöglicht Blazor eine Full-Stack Entwicklung in .NET und die Wiederverwendung bestehender .NET Bibliotheken.\n\nBei Guid.New ist Angular die erste Wahl, wenn es um Client-Side Entwicklung geht. Wir haben uns gefragt, ob Blazor für gewisse Einsatzgebiete eine ernstzunehmende Alternative zu Angular sein kann. Eine Alternative, mit der wir Projekte ohne Technologiebruch effizient umsetzen können. Das hat uns motiviert ein bestehendes Kundenprojekt von Angular auf Blazor zu portieren.\n\nIn diesem Vortrag stellen wir unsere praktische Erkenntnisse aus dieser Portierung dar, und versuchen auf die folgenden Fragen Antwort zu geben:\n- Wie ernstzunehmend ist Blazor als Alternative zu Angular?\n- Unter welchen Bedingungen bietet Blazor Vorteile im Vergleich zu Angular?\n- Wie strukturiert man eine Blazor Anwendung, sodass sie unter Client-Side sowie Server-Side Blazor optimal laufen kann?\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/von-angular-zu-blazor
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T140000
+DTEND;VALUE=DATE-TIME:20200424T145000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Von Angular zu Blazor - Ein Erfahrungsbericht
 TRANSP:TRANSPARENT

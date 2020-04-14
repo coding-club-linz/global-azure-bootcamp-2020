@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:SQL Server automation - Start me Up mit dbatools\n\n---\n\nWir sehen uns an, was PowerShell für SQL Server, Azure SQL und Managed DBs zu bieten hat. Was kann PowerShell "out of the box", welche Funktionalität können wir einfach erweitern? Um die Erkenntnisse zu vertiefen, führen wir ein "Speed-Dating" mit verschiedenen PowerShell-Befehlen in verschiedenen Tätigkeitsbereichen durch. Vom CSV-Import über das Versions-Upgrade bis hin zur Überprüfung der SQL-Server-Einstellungen.\n\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/sql-server-automation-dbatools
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T140000
+DTEND;VALUE=DATE-TIME:20200424T145000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:SQL Server automation - Start me Up mit dbatools
 TRANSP:TRANSPARENT

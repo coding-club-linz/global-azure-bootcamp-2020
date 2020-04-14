@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Securing your Application with OpenID Connect\n\n---\n\nWhen developing for modern service landscapes we need to deal with terms like OAuth, OpenID Connect, JWT, Bearer Tokens and more. In this vast landscape auth possibilities for authentication, it is easy to get lost. This session helps to understand and use the principles that underly modern authentication flows.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/securing-apps-with-openid-connect
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T160000
+DTEND;VALUE=DATE-TIME:20200424T165000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Securing your Application with OpenID Connect
 TRANSP:TRANSPARENT

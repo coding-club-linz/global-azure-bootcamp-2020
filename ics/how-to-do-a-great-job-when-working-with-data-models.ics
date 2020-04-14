@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:How to Do A Great Job When Working With (Data) Models\n\n---\n\nPower BI is a self-service Business Intelligence tool, which does a great job in hiding complexity and technology away from the user. But when it comes to performance and even correct numbers, one should spend some time in finding the right way of modelling the tables and how they are related to each other. In this talk we spend 50 minutes on doing exactly that. You will get answers to questions like: Why should you care about the data model? What kind of relations are available? How do they influence performance? Why redundancy is (not) a bad thing? \n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/how-to-do-a-great-job-when-working-with-data-models
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T110000
+DTEND;VALUE=DATE-TIME:20200424T115000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:How to Do A Great Job When Working With (Data) Models
 TRANSP:TRANSPARENT

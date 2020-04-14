@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Azure Network deep dive\n\n---\n\nDas Azure Network Design ist nicht nur wichtig für IaaS. Immer mehr PaaS Services finden sich im Netzwerk Design wieder. In dieser Session erfahren Sie, welche Netzwerk Design Möglichkeiten Sie in der Cloud haben und welche Umsetzungsvarianten in der realen Welt umgesetzt werden.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/azure-network-deep-dive
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T130000
+DTEND;VALUE=DATE-TIME:20200424T135000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Azure Network deep dive
 TRANSP:TRANSPARENT

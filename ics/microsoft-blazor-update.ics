@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Microsoft Blazor Update\n\n---\n\nErst mit Blazor 3.2 wird auch die Webassembly Implementierung als JavaScript freies SPA final nutzbar. Damit kommen Erleichterungen für UI Entwurf und debugging direkt aus Visual Studio. Ergänzt wird Blazor mit einem völlig neuen Web Service Konzept gRPC, komplettiert mit Server Push: SignalR. \n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/microsoft-blazor-update
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T150000
+DTEND;VALUE=DATE-TIME:20200424T155000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Microsoft Blazor Update
 TRANSP:TRANSPARENT

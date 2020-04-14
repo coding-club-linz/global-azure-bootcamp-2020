@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Serverless != Stateless\n\n---\n\nUrsprünglich waren serverless functions für kurzlebige und zustandslose Abläufe gedacht. Mit der Einführung von "Durable Functions" und "Durable Entities" können nun aber auch komplexere Problemstellungen mithilfe von Azure Functions gelöst werden. In einem durchgängigen Beispiel zeigt Daniel Sklenitzka, wie parallele Workflows mit menschlicher Interaktion umgesetzt werden können.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/serverless-is-not-stateless
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T110000
+DTEND;VALUE=DATE-TIME:20200424T115000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Serverless != Stateless
 TRANSP:TRANSPARENT

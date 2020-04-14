@@ -6,8 +6,8 @@ UID:0@gabaustria2020
 CLASS:PUBLIC
 DESCRIPTION:Serverless Application Integration - Azure and Power Platform\n\n---\n\nIn dieser Session befassen wir uns mit Serverless Code zur Applikationsintegration. Allen voran Azure Functions und Azure Service Bus. Wir zeigen, wie wir diese Technologien erfolgreich bei großen Integrationsprojekten einsetzen, um CRM mit anderen Applikationen zu integrieren und um eine eventbasierte und asynchrone Integrationsarchitektur zu schaffen. Wir halten uns hier an das „Smart Endpoints and Dumb Pipes“-Paradigma der Microservices Architektur. Mit Hilfe der Azure Functions gelingt es lose gekoppelte Microservices zur Integration zu schreiben, die hoch performant und skalierbar sind. Azure bietet mittlerweile unzählige Optionen zur Applikationsintegration und wir werden einen kurzen Streifzug über die anderen Möglichkeiten machen (Power Automate, Logic Apps, Event Grid, Web Jobs).\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/serverless-app-integration-azure-and-power-platform
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
-DTSTART;VALUE=DATE-TIME:20200424T090000
-DTEND;VALUE=DATE-TIME:20200424T095000
+DTSTART;VALUE=DATE-TIME:20200424T130000
+DTEND;VALUE=DATE-TIME:20200424T135000
 LOCATION:Microsoft Teams Live Event
 SUMMARY;LANGUAGE=en-us:Serverless Application Integration - Azure and Power Platform
 TRANSP:TRANSPARENT
