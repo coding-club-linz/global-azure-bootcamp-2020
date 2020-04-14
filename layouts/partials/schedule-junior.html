@@ -1,4 +1,6 @@
-<section id="schedule" class="bg-primary">
+{{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
+{{ $streamingUrlQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Streaming URL") 0).id }}
+<section id="schedule" class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -58,6 +60,19 @@
                                 {{ range $index, $speaker := where $.Site.Data.sessionize.speakers "id" "in" .speakers }}
                                 {{ if ne $index 0 }}<span>, </span>{{ end }}<span
                                     onclick="$('#{{ $speaker.id }}').modal({})">{{ .firstName }} {{ .lastName }}</span>
+                                {{ end }}
+                            </div>
+
+                            <div class="links">
+                                {{ range $question := .questionAnswers }}
+                                {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
+                                <a href="/ics/{{$question.answerValue}}.ics" download><i class="fa fa-calendar"
+                                        aria-hidden="true"></i>Add
+                                    to calendar</a><br/>
+                                <a href="/sessions/{{$question.answerValue}}" target="_blank"><i
+                                        class="fa fa-video-camera" aria-hidden="true"></i>Open Microsoft Teams
+                                    live event</a>
+                                {{ end }}
                                 {{ end }}
                             </div>
                             {{ end }}

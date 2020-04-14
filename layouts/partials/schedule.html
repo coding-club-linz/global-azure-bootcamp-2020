@@ -59,21 +59,18 @@
                                 {{ end }}
                             </div>
 
-                            {{ if eq (len .questionAnswers) 2 }}
                             <div class="links">
                                 {{ range $question := .questionAnswers }}
                                 {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
                                 <a href="/ics/{{$question.answerValue}}.ics" download><i class="fa fa-calendar"
                                         aria-hidden="true"></i>Add
-                                    to calendar</a>
-
+                                    to calendar</a><br/>
                                 <a href="/sessions/{{$question.answerValue}}" target="_blank"><i
                                         class="fa fa-video-camera" aria-hidden="true"></i>Open Microsoft Teams
                                     live event</a>
                                 {{ end }}
                                 {{ end }}
                             </div>
-                            {{ end }}
 
                             {{ end }}
                             {{ end }}

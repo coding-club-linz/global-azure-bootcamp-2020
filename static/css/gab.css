@@ -83,6 +83,10 @@ p {
     background-color: #222;
 }
 
+.bg-warning {
+    background-color: #fff59d;
+}
+
 .bg-dark a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: underline;
@@ -94,6 +98,11 @@ p {
 
 .text-faded {
     color: rgba(255, 255, 255, 0.9);
+}
+
+.warning {
+    padding: 10px;
+    text-align: center;
 }
 
 section {
@@ -166,6 +175,7 @@ aside {
 }
 
 @media (max-width: 767px) {
+
     .table td,
     .table th {
         display: block;
@@ -726,8 +736,9 @@ body {
     margin-top: 20px;
 }
 
-.schedule td.visible-xs, .schedule th.visible-xs {
-    display: none!important;
+.schedule td.visible-xs,
+.schedule th.visible-xs {
+    display: none !important;
 }
 
 .schedule th {
@@ -774,22 +785,30 @@ body {
     cursor: pointer;
 }
 
-.schedule .speaker span[onclick]:hover, .schedule .session a:hover {
+.schedule .speaker span[onclick]:hover,
+.schedule .session a:hover {
     text-decoration: underline;
 }
 
-.schedule .links {
+.schedule .links,
+.sessions .links {
     margin-block-end: 1em;
 }
 
+.schedule .links a, .sessions .links a {
+    line-height: 1.6em;
+}
+
 .schedule .links a {
-    margin-block-start: 0.3em;
-    margin-block-end: 0.3em;
-    display: block;
     font-size: 12px;
 }
 
-.schedule .links a i {
+.sessions .links a {
+    font-size: 14px;
+}
+
+.schedule .links a i,
+.sessions .links a i {
     margin-right: 10px;
 }
 
@@ -809,8 +828,9 @@ body {
         background-color: #444;
     }
 
-    .schedule td.visible-xs, .schedule th.visible-xs {
-        display: block!important;
+    .schedule td.visible-xs,
+    .schedule th.visible-xs {
+        display: block !important;
     }
 }
 

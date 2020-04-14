@@ -7,13 +7,13 @@
 <head>
     <title>{{ .Params.title }} - {{ .Site.Title }}</title>
     {{ partial "head.html" . }}
+    {{ range $question:= $session.questionAnswers }}
+    {{ if eq (int $question.questionId) (int $streamingUrlQuestionId) }}
     <script>
-        {{ range $question := $session.questionAnswers }}
-        {{ if eq (int $question.questionId) (int $streamingUrlQuestionId) }}
         window.location = "{{ $question.answerValue }}";
-        {{ end }}
-        {{ end }}
     </script>
+    {{ end }}
+    {{ end }}
 </head>
 
 <body>
@@ -36,6 +36,7 @@
                     </p>
                     <p>
                         <div class="text-muted timeslot">
+                            {{ dateFormat "Monday, January 2, 2006" $session.startsAt }}
                             {{ dateFormat "15:04" $session.startsAt }} - {{ dateFormat "15:04" $session.endsAt }}
                         </div>
                     </p>
@@ -46,12 +47,29 @@
                     <p class="text-muted bio">{{ .bio }}</p>
                     {{ end }}
 
+                    {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
+                    <div class="links">
+                        {{ range $question := $session.questionAnswers }}
+                        {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
+                        <a href="/ics/{{$question.answerValue}}.ics" download><i class="fa fa-calendar"
+                                aria-hidden="true"></i>Add
+                            to calendar</a><br/>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+
+                    {{ $hasStreamingUrl := false}}
                     <p class="text-center">
                         {{ range $question := $session.questionAnswers }}
                         {{ if eq (int $question.questionId) (int $streamingUrlQuestionId) }}
+                        {{ $hasStreamingUrl := true}}
                         <a href="{{ $question.answerValue }}" class="btn btn-primary">Go to Microsoft Teams live
                             event</a>
                         {{ end }}
+                        {{ end }}
+
+                        {{ if eq $hasStreamingUrl false }}
+                        <p class="bg-warning warning">The streaming link is not yet available.</p>
                         {{ end }}
                     </p>
                 </div>
