@@ -32,8 +32,6 @@ steps:
 - script: |
     rm ./static/ics/*.ics
     node ./utils/generate-ics.js
-    ls -la ./static/ics
-    cat ./static/ics/stories-of-void.ics
   displayName: 'Generate ICS files'
 
 - script: |
