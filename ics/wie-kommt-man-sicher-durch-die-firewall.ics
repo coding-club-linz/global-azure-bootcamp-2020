@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:Wie kommt man sicher durch die Firewall?\n\n---\n\nIhr möchtet bei euch zu Hause einen Minecraft-Server betreiben und eure Freundinnen und Freunde übers Internet zum gemeinsamen Spielen einladen? Ihr habt eine Webseite programmiert, auf die aber nur eure Schulklasse zugreifen können soll? Mit Hilfe eures Raspberry Pi möchtet ihr Fotos übers Internet sicher mit der ganzen Familie teilen? In dieser Session zeigt euch Rainer die Tools WireGuard und Tailscale, die euch helfen können, solche Probleme zu lösen.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/wie-kommt-man-sicher-durch-die-firewall
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:Wie kommt man sicher durch die Firewall?
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
