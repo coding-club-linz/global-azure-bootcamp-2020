@@ -778,6 +778,21 @@ body {
     text-decoration: underline;
 }
 
+.schedule .links {
+    margin-block-end: 1em;
+}
+
+.schedule .links a {
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    display: block;
+    font-size: 12px;
+}
+
+.schedule .links a i {
+    margin-right: 10px;
+}
+
 #junior-bootcamp {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../img/hero-virtual.jpg");
     backdrop-filter: grayscale(30%);

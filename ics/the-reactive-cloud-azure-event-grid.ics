@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:The Reactive Cloud: Azure Event Grid\n\n---\n\nEvents, Events, Events … in dieser Session dreht sich alles um Events – genauer um das Azure Event Grid. Event-basierte Architekturen liegen im Trend – speziell in Kombination mit Serverless Architekturen. Durch das Azure Event Grid werden Events zu First-Class-Citizens in der Cloud und die Entwicklung von Event-basierten Architekturen wird stark vereinfacht. \n\nDiese Session soll einen Überblick über das Azure Event Grid und dessen Einsatzgebiete geben. Sehen wir uns gemeinsam an wie Azure Event Grid auch Dein Leben als Cloud-Architekt vereinfachen kann.\n\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:The Reactive Cloud: Azure Event Grid
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

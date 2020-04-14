@@ -11,6 +11,24 @@
     
     
     <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/stories-of-void/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/stories-of-void/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ACP</title>
       <link>https://www.globalazurebootcamp.at/sponsors/acp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -18,15 +36,6 @@
       <guid>https://www.globalazurebootcamp.at/sponsors/acp/</guid>
       <description>ACP unterstützt Unternehmen, Behörden und Organisationen dabei, neue Ideen noch erfolgreicher umzusetzen sowie ihre Produkte und Prozesse zukunftsorientiert zu gestalten. Die Innovationskraft und Wettbewerbsfähigkeit seiner Kunden unterstützt ACP mit einem 360° IT-Portfolio aus einer Hand - mit individuellen Lösungen, neuesten digitalen Services und frischen Ideen.
 Mit mehr als 50 Geschäftsstellen in ganz Deutschland und Österreich ist ACP immer ein zuverlässiger Ansprechpartner in Kundennähe. Das ACP Team ist von den international führenden Herstellern zertifiziert.</description>
-    </item>
-    
-    <item>
-      <title>Automated Machine Learning – do we need any more Data Scientists?</title>
-      <link>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -159,7 +168,7 @@ ppedv.at</description>
       
       <guid>https://www.globalazurebootcamp.at/sessions/</guid>
       <description>
-# Sesions</description>
+# Sessions</description>
     </item>
     
     <item>
@@ -184,15 +193,6 @@ Grillparzerstrasse 32
 A-2380 Perchtoldsdorf
 www.spectologic.eu
 apollak@spectologic.com Blog | Twitter | LinkedIn</description>
-    </item>
-    
-    <item>
-      <title>Stories of void</title>
-      <link>https://www.globalazurebootcamp.at/sessions/stories-of-void/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.globalazurebootcamp.at/sessions/stories-of-void/</guid>
-      <description></description>
     </item>
     
     <item>

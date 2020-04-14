@@ -11,11 +11,20 @@
     
     
     <item>
-      <title>Automated Machine Learning – do we need any more Data Scientists?</title>
-      <link>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</link>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</guid>
+      <guid>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/stories-of-void/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/stories-of-void/</guid>
       <description></description>
     </item>
     
@@ -26,16 +35,7 @@
       
       <guid>https://www.globalazurebootcamp.at/sessions/</guid>
       <description>
-# Sesions</description>
-    </item>
-    
-    <item>
-      <title>Stories of void</title>
-      <link>https://www.globalazurebootcamp.at/sessions/stories-of-void/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.globalazurebootcamp.at/sessions/stories-of-void/</guid>
-      <description></description>
+# Sessions</description>
     </item>
     
   </channel>

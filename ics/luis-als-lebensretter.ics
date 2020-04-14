@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:LUIS als Lebensretter\n\n---\n\nMit Hilfe des Language Understanding Service (LUIS) aus den Azure Cognitive Services wird ein Modell trainiert, das natürliche Sprache verstehen und interpretieren kann.\nIn dieser Deep Dive-Session zeigt Roman Schacherl viele Features und demonstriert, wie LUIS in Einsatzleitstellen helfen kann, Notrufe rascher abzuwickeln.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/luis-als-lebensretter
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:LUIS als Lebensretter
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
