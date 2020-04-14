@@ -130,7 +130,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "luis-als-lebensretter"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -171,7 +176,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "the-reactive-cloud-azure-event-grid"
+        }
+      ],
       "roomId": 11859
     },
     {
@@ -189,7 +199,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "microfrontends"
+        }
+      ],
       "roomId": 11856
     },
     {
@@ -207,7 +222,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "how-to-do-a-great-job-when-working-with-data-models"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -225,7 +245,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "serverless-is-not-stateless"
+        }
+      ],
       "roomId": 11858
     },
     {
@@ -247,10 +272,6 @@
         {
           "questionId": 21790,
           "answerValue": "iot-powerbi"
-        },
-        {
-          "questionId": 21789,
-          "answerValue": "https://www.google.at"
         }
       ],
       "roomId": 11859
@@ -283,7 +304,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "azure-devops-and-github"
+        }
+      ],
       "roomId": 11856
     },
     {
@@ -301,7 +327,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "azure-network-deep-dive"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -319,7 +350,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "serverless-app-integration-azure-and-power-platform"
+        }
+      ],
       "roomId": 11858
     },
     {
@@ -338,7 +374,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "wie-iot-und-ml-in-produktionsumgebungen-hilft"
+        }
+      ],
       "roomId": 11859
     },
     {
@@ -357,7 +398,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "von-angular-zu-blazor"
+        }
+      ],
       "roomId": 11856
     },
     {
@@ -375,7 +421,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "sql-server-automation-dbatools"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -393,7 +444,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "power-plattform-the-dev-stack"
+        }
+      ],
       "roomId": 11858
     },
     {
@@ -411,7 +467,12 @@
         35851,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "programmieren-wie-ein-pirat-mit-r-und-yarrr"
+        }
+      ],
       "roomId": 11859
     },
     {
@@ -429,7 +490,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "microsoft-blazor-update"
+        }
+      ],
       "roomId": 11856
     },
     {
@@ -447,7 +513,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "powershell-with-azure-automation-accounts"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -465,7 +536,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "power-platform-dataflows"
+        }
+      ],
       "roomId": 11858
     },
     {
@@ -477,14 +553,18 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c6fa04d3-12bd-4f8a-a10a-27630d79d4ff",
         "76561788-d927-4dd7-931d-8fcb8eff1113"
       ],
       "categoryItems": [
         35851,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "amateurfunk-als-hobby"
+        }
+      ],
       "roomId": 11859
     },
     {
@@ -502,7 +582,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "securing-apps-with-openid-connect"
+        }
+      ],
       "roomId": 11856
     },
     {
@@ -520,7 +605,12 @@
         35850,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "hamnet-internet-der-funkamateure"
+        }
+      ],
       "roomId": 11857
     },
     {
@@ -538,7 +628,12 @@
         35850,
         43221
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "containers-and-you-the-azure-edition"
+        }
+      ],
       "roomId": 11858
     },
     {
@@ -556,7 +651,12 @@
         35851,
         35852
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 21790,
+          "answerValue": "wie-kommt-man-sicher-durch-die-firewall"
+        }
+      ],
       "roomId": 11859
     }
   ],
@@ -1129,7 +1229,6 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        185213,
         185212
       ],
       "fullName": "Michael Wagner",
