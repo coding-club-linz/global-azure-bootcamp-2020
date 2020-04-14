@@ -247,6 +247,10 @@
         {
           "questionId": 21790,
           "answerValue": "iot-powerbi"
+        },
+        {
+          "questionId": 21789,
+          "answerValue": "https://www.google.at"
         }
       ],
       "roomId": 11859
