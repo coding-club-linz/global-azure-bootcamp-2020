@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+    <title>{{ .Params.title }} - {{ .Site.Title }}</title>
+    {{ partial "head.html" . }}
+    <script>
+        //window.location = "{{ .Params.streamingUrl }}";
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>{{ .Params.title }}</h1>
+                <p>{{ .Params.description }}</p>
+                <p><a href="{{ .Params.streamingUrl }}">Streaming URL</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
