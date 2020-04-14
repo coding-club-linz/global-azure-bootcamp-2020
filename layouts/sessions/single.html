@@ -10,15 +10,53 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>{{ .Params.title }}</h1>
-                <p>{{ .Params.description }}</p>
-                <p><a href="{{ .Params.streamingUrl }}">Streaming URL</a></p>
+    <section id="session" class="sessions">
+        <div class="container">
+            <div class="row">
+                {{ $session := index (where $.Site.Data.sessionize.sessions "id" .Params.sessionId) 0 }}
+                <div class="col-md-8">
+                    <h3>{{ $session.title }}</h3>
+                    <p>
+                        {{ range where (index $.Site.Data.sessionize.categories 1).items "id" "in" $session.categoryItems }}
+                        <span class="label label-default">{{ $session.name }}</span>
+                        {{ end }}
+
+                        {{ range where (index $.Site.Data.sessionize.categories 0).items "id" "in" $session.categoryItems }}
+                        {{ if eq .name "Junior Bootcamp" }}
+                        <span class="label label-default">{{ $session.name }}</span>
+                        {{ end }}
+                        {{ end }}
+                    </p>
+                    <p>
+                        <div class="text-muted timeslot">
+                            {{ dateFormat "15:04" $session.startsAt }} - {{ dateFormat "15:04" $session.endsAt }}
+                        </div>
+                    </p>
+                    <p class="text-muted">{{ safeHTML  (replace $session.description "\r\n" "<br/>") }}</p>
+
+                    {{ range where $.Site.Data.sessionize.speakers "id" "in" $session.speakers }}
+                    <h4>About {{ .firstName }} {{ .lastName }}</h4>
+                    <p class="text-muted bio">{{ .bio }}</p>
+                    {{ end }}
+                </div>
+
+                <div class="col-md-4 text-center">
+                    {{ range where $.Site.Data.sessionize.speakers "id" "in" $session.speakers }}
+                    <div class="speaker">
+                        <figure class="avatar"><img src="{{ .profilePicture }}" alt="{{ .firstName }} {{ .lastName }}">
+                        </figure>
+                        <h4>{{ .firstName }} {{ .lastName }}</h4>
+                        <h5>{{ .tagLine }}</h5>
+
+                        {{ range .links }}
+                        <div><a href="{{ .url }}" target="_blank">{{ .title }}</a></div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
 </body>
 
