@@ -27,8 +27,10 @@ fs.readFile(path.join('.', 'data', 'sessionize.json'), 'utf8', function (err, se
                 .split('[TITLE]').join(session.title)
                 .replace('[DESCRIPTION]', session.description)
                 .replace('[URL]', 'https://www.globalazurebootcamp.at/sessions/' + shortTitle);
-
             fs.writeFileSync(path.join('.', 'static', 'ics', shortTitle + '.ics'), ics);
+
+            const redirectMd = '---\nsessionId: "' + session.id + '"\n---';
+            fs.writeFileSync(path.join('.', 'content', 'sessions', shortTitle + '.md'), redirectMd);
         }
     });
 });
