@@ -3,11 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/azure-devops-and-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/azure-network-deep-dive/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/build-state-of-the-art-apis-with-graphql-and-azure-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/cosmos-db/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/die-wahrheit-ueber-micro-frontends-und-angular/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/how-to-do-a-great-job-when-working-with-data-models/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/identity-governance-for-azure/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</loc>
   </url>
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/luis-als-lebensretter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/microfrontends/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/serverless-app-integration-azure-and-power-platform/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/serverless-is-not-stateless/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/stories-of-void/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/wie-iot-und-ml-in-produktionsumgebungen-hilft/</loc>
   </url>
   
   <url>

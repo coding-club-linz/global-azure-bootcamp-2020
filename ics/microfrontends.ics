@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:The Next Frontier: Microfrontends!\n\n---\n\nThe architecture pattern of microservices can be found in many modern system landscapes, which offers flexibility for the backend services. On the other side, the frontend is very often realized as a monolith.\n\nWe present an example implementation of a highly modular frontend architecture based on microfrontends running in Azure, which mirrors the dynamic of a modern microservices backend with some crucial differences.\n\nWe will also introduce our concept for CI/CD with microfrontends, where Azure DevOps helps us to get from an idea to having a new feature online within minutes.\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/microfrontends
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:The Next Frontier: Microfrontends!
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

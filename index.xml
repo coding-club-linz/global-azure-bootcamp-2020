@@ -12,6 +12,78 @@
     
     <item>
       <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/azure-devops-and-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/azure-devops-and-github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/azure-network-deep-dive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/azure-network-deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/build-state-of-the-art-apis-with-graphql-and-azure-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/build-state-of-the-art-apis-with-graphql-and-azure-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/cosmos-db/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/cosmos-db/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/die-wahrheit-ueber-micro-frontends-und-angular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/die-wahrheit-ueber-micro-frontends-und-angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/how-to-do-a-great-job-when-working-with-data-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/how-to-do-a-great-job-when-working-with-data-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/identity-governance-for-azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/identity-governance-for-azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -21,10 +93,64 @@
     
     <item>
       <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/luis-als-lebensretter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/luis-als-lebensretter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/microfrontends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/microfrontends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/serverless-app-integration-azure-and-power-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/serverless-app-integration-azure-and-power-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/serverless-is-not-stateless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/serverless-is-not-stateless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://www.globalazurebootcamp.at/sessions/stories-of-void/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.globalazurebootcamp.at/sessions/stories-of-void/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.globalazurebootcamp.at/sessions/wie-iot-und-ml-in-produktionsumgebungen-hilft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.globalazurebootcamp.at/sessions/wie-iot-und-ml-in-produktionsumgebungen-hilft/</guid>
       <description></description>
     </item>
     
