@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:Amateurfunk als Hobby\n\n---\n\nAls Amateurfunker hat man viele Möglichkeiten wie weltweite Kommunikation, Notfunk, Hamnet, Morsen, Satellitenfunk, Amateurfunkfernsehen, Basteln ... und ist es perfektes Hobby für Technikinteressierte\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/amateurfunk-als-hobby
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:Amateurfunk als Hobby
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

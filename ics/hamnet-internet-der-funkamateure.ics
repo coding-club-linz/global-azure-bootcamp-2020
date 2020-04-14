@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:HAMNET das Internet der Funkamateure\n\n---\n\nDas Hamnet ist ein von Funkamateuren betriebenes Internet jedoch nur mit Funk\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/hamnet-internet-der-funkamateure
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:HAMNET das Internet der Funkamateure
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/amateurfunk-als-hobby/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</loc>
   </url>
   
@@ -19,11 +23,19 @@
   </url>
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/containers-and-you-the-azure-edition/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/cosmos-db/</loc>
   </url>
   
   <url>
     <loc>https://www.globalazurebootcamp.at/sessions/die-wahrheit-ueber-micro-frontends-und-angular/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/hamnet-internet-der-funkamateure/</loc>
   </url>
   
   <url>
@@ -47,7 +59,19 @@
   </url>
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/microsoft-blazor-update/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/power-platform-dataflows/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/power-plattform-the-dev-stack/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/powershell-with-azure-automation-accounts/</loc>
   </url>
   
   <url>
@@ -63,11 +87,19 @@
   </url>
   
   <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/sql-server-automation-dbatools/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.globalazurebootcamp.at/sessions/stories-of-void/</loc>
   </url>
   
   <url>
     <loc>https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/sessions/von-angular-zu-blazor/</loc>
   </url>
   
   <url>

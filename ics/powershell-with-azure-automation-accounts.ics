@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:Master PowerShell with Azure Automation Accounts\n\n---\n\nIT-Admins can automate with tools as PowerShell. With Azure Automation Accounts we get one step further: In this session Toni shows typical management and governance tasks automated with PowerShell scripts in a secure and automated way. Configure your runbooks in Azure Automation Accounts and secure, execute, schedule, and monitor your scripts in a controlled environment. If you are already a Powershell master, you will love Azure Automation Accounts and walk away with the wish to migrate your scripts instantly!\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/powershell-with-azure-automation-accounts
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:Master PowerShell with Azure Automation Accounts
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

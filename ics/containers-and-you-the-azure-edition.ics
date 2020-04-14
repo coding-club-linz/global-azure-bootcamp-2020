@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+UID:0@gabaustria2020
+CLASS:PUBLIC
+DESCRIPTION:Containers and You: The Azure Edition\n\n---\n\nMany applications are moving towards a container-based approach and with good reason: containers allow us to separate our applications’ environmental concerns from the application itself.\n\nInstead of worrying about how to configure our application to run on different target environments, we can explicitly state those needs in code and have that environment automatically created for us!\n\nAzure provides four container services to help us adopt the container-based approach for our own applications:\n\n- Azure Container Instances\n- Azure Web App for Containers\n- Azure Container Registry\n- Azure Kubernetes Service\n\nIn this talk, we'll go over what each of these services are, how they are (and aren't!) related to and work with each other, and how you can get started building your own containerized applications.\n\nYou'll leave with a better understanding of the services Azure provides to create and deploy containerized applications and be excited to start building your own once you're back at your computer!\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/containers-and-you-the-azure-edition
+DTSTAMP;VALUE=DATE-TIME:20200414T140256
+DTSTART;VALUE=DATE-TIME:20200424T090000
+DTEND;VALUE=DATE-TIME:20200424T095000
+LOCATION:Microsoft Teams Live Event
+SUMMARY;LANGUAGE=en-us:Containers and You: The Azure Edition
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
