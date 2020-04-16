@@ -1,8 +1,8 @@
 ---
 title: "ACP"
-type: "Silver Sponsor"
+type: "Gold Sponsor"
 logo: "acp.png"
-priority: 3
+priority: 2
 ---
 
 ACP unterstützt Unternehmen, Behörden und Organisationen dabei, neue Ideen noch erfolgreicher umzusetzen sowie ihre Produkte und Prozesse zukunftsorientiert zu gestalten. Die Innovationskraft und Wettbewerbsfähigkeit seiner Kunden unterstützt ACP mit einem 360° IT-Portfolio aus einer Hand - mit individuellen Lösungen, neuesten digitalen Services und frischen Ideen. 
