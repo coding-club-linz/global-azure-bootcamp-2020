@@ -430,6 +430,11 @@ header .subtitle {
     padding-left: 0;
 }
 
+.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .btn-default {
     border-color: #fff;
     color: #222;
@@ -490,6 +495,7 @@ fieldset[disabled] .btn-default.active {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
+    text-decoration: none !important;
 }
 
 .btn-primary:hover,
@@ -546,6 +552,27 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn-success {
+    background-color: #4CA30A;
+    border-color: #4CA30A;
+    text-decoration: none !important;
+}
+
+.btn-success:hover {
+    background-color: #3A7D07;
+    border-color: #3A7D07;
+}
+
+.discord-button {
+    margin-top: 10px;
+}
+
+.discord-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
 }
 
 ::-moz-selection {
