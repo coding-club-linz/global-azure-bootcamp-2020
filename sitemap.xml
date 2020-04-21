@@ -3,123 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/amateurfunk-als-hobby/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/automated-machine-learning/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/azure-devops-and-github/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/azure-network-deep-dive/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/build-state-of-the-art-apis-with-graphql-and-azure-functions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/containers-and-you-the-azure-edition/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/cosmos-db/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/die-wahrheit-ueber-micro-frontends-und-angular/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/hamnet-internet-der-funkamateure/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/how-to-do-a-great-job-when-working-with-data-models/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/identity-governance-for-azure/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/iot-powerbi/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/luis-als-lebensretter/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/microfrontends/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/microsoft-blazor-update/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/power-platform-dataflows/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/power-plattform-the-dev-stack/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/powershell-with-azure-automation-accounts/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/programmieren-wie-ein-pirat-mit-r-und-yarrr/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/securing-apps-with-openid-connect/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/serverless-app-integration-azure-and-power-platform/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/serverless-is-not-stateless/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/sql-server-automation-dbatools/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/stories-of-void/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/the-reactive-cloud-azure-event-grid/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/von-angular-zu-blazor/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/wie-iot-und-ml-in-produktionsumgebungen-hilft/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/wie-kommt-man-sicher-durch-die-firewall/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.globalazurebootcamp.at/sponsors/acp/</loc>
   </url>
   
   <url>
     <loc>https://www.globalazurebootcamp.at/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.globalazurebootcamp.at/code-of-conduct/</loc>
   </url>
   
   <url>
@@ -168,10 +60,6 @@
   
   <url>
     <loc>https://www.globalazurebootcamp.at/schedule/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.globalazurebootcamp.at/sessions/</loc>
   </url>
   
   <url>
