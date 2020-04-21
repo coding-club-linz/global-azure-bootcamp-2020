@@ -24,7 +24,7 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Global Azure Bootcamp 2020 Linz"
+	name = "Global Azure Bootcamp 2020 Austria"
 	description = "All around the world user groups and communities will come together from April 23 - April 25, 2020 once again in the seventh Global Azure Bootcamp event. Join us on Friday, April 24, 2020 in Linz."
 
 	# The path must be relative to the static folder
