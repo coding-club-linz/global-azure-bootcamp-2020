@@ -4,7 +4,7 @@ VERSION:2.0
 BEGIN:VEVENT
 UID:0@gabaustria2020
 CLASS:PUBLIC
-DESCRIPTION:Programmieren wie ein Pirat - Erste Schritte mit R und yarrr\n\n---\n\nIn diesen 25 min werden wir erste Schritte in der Programmiersprache "R" und dem Paket "yarrr" machen. Du brauchst dazu keinerlei Vorkenntnisse. Als Beispiel dient uns eine Liste von Piraten:\n\n* (Piraten-)Daten erkunden\n* Statistik (ohne uns dabei weh zu tun)\n* Malen nach Zahlen\n* Ein Blick in die Glaskugel\n\nWenn du dir die Beispiele vorher schon ansehen möchtest, kannst du das unter dem folgenden Link (in Englisch) tun:\nhttps://bookdown.org/ndphillips/YaRrr/\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/programmieren-wie-ein-pirat-mit-r-und-yarrr
+DESCRIPTION:Programmieren wie ein Pirat - Erste Schritte mit R und yarrr\n\n---\n\nIn diesen 45 min werden wir erste Schritte in der Programmiersprache "R" und dem Paket "yarrr" machen. Du brauchst dazu keinerlei Vorkenntnisse. Als Beispiel dient uns eine Liste von Piraten:\n\n* (Piraten-)Daten erkunden\n* Statistik (ohne uns dabei weh zu tun)\n* Malen nach Zahlen\n* Ein Blick in die Glaskugel\n\nWenn du dir die Beispiele vorher schon ansehen möchtest, kannst du das unter dem folgenden Link (in Englisch) tun:\nhttps://bookdown.org/ndphillips/YaRrr/\n\n---\n\nMicrosoft Teams live event: https://www.globalazurebootcamp.at/sessions/programmieren-wie-ein-pirat-mit-r-und-yarrr
 DTSTAMP;VALUE=DATE-TIME:20200414T140256
 DTSTART;VALUE=DATE-TIME:20200424T140000
 DTEND;VALUE=DATE-TIME:20200424T144500
