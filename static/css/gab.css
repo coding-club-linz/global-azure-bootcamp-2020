@@ -758,6 +758,18 @@ body {
     margin-right: auto;
 }
 
+.discord-link img {
+    width: 22px;
+}
+
+.email-link, .discord-link {
+    line-height: 28px;
+}
+
+.discord-link img, .email-link i {
+    margin-right: 8px;
+}
+
 /* Schedule */
 .schedule {
     margin-top: 20px;

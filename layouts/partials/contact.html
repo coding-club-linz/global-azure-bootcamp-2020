@@ -6,20 +6,17 @@
                 <h3 class="section-heading">Content</h3>
                 <ul class="footer-content">
                     <li>
-                        <a class="page-scroll"
-                            href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
+                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                     <!-- <li>
                         <a class="page-scroll"
                             href="{{ cond (eq .Page.Dir "") "" "/" }}#tickets">{{ .Site.Params.navigation.links.tickets }}</a>
                     </li> -->
                     <li>
-                        <a class="page-scroll"
-                            href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
+                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#schedule">{{ .Site.Params.navigation.links.schedule }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll"
-                            href="{{ cond (eq .Page.Dir "") "" "/" }}#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
+                        <a class="page-scroll" href="{{ cond (eq .Page.Dir "") "" "/" }}#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
                     </li>
                     <!-- <li>
                         <a class="page-scroll"
@@ -29,12 +26,10 @@
                         <a href="/sessions">{{ .Site.Params.navigation.links.sessions }}</a>
                     </li>
                     <li>
-                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}"
-                            href="/junior-bootcamp">{{ .Site.Params.navigation.links.juniorBootcamp }}</a>
+                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}" href="/junior-bootcamp">{{ .Site.Params.navigation.links.juniorBootcamp }}</a>
                     </li>
                     <li>
-                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}"
-                            href="/junior-bootcamp#schedule">{{ .Site.Params.navigation.links.juniorBootcampSchedule }}</a>
+                        <a class="{{ cond (eq .Page.Dir "junior-bootcamp\\") "active" "" }}" href="/junior-bootcamp#schedule">{{ .Site.Params.navigation.links.juniorBootcampSchedule }}</a>
                     </li>
                     <li class="{{ cond (eq .Page.Dir "sponsors\\") "active" "" }}">
                         <a href="/sponsors">{{ .Site.Params.navigation.links.sponsors }}</a>
@@ -48,17 +43,22 @@
                     The Global Azure Bootcamp Linz is organized by the Coding Club Linz e.V., Birkenweg 16, A-4060
                     Leonding. Contact us to get more information on sponsorship and speaking opportunities.
                 </p>
-                <a href="mailto:{{ .Site.Params.contact.email }}"><i class="fa fa-envelope-o fa-3x wow bounceIn"
+                <!-- <a href="mailto:{{ .Site.Params.contact.email }}"><i class="fa fa-envelope-o fa-3x wow bounceIn"
                         data-wow-delay=".1s"></i>
                     <p>{{ .Site.Params.contact.email }}</p>
-                </a>
+                </a> -->
+
+                <p>
+                    <a class="email-link" href="mailto:{{ .Site.Params.contact.email }}">
+                        <i class="fa fa-envelope"></i>{{ .Site.Params.contact.email }}</a>
+                    <br />
+                    <a class="discord-link" href="https://discord.gg/CVGFZFy" target="_blank">
+                        <img src="img/Discord-Logo-White.png">Join us on Discord</a>
+                </p>
             </div>
 
             <div class="col-lg-4 col-lg-offset-0 col-sm-8 col-sm-offset-2 text-center" id="mc_embed_signup">
-                <form
-                    action="https://timecockpit.us5.list-manage.com/subscribe/post?u=f628a14a6f934bf75e14ef1c3&amp;id=8137ea1fb7"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
+                <form action="https://timecockpit.us5.list-manage.com/subscribe/post?u=f628a14a6f934bf75e14ef1c3&amp;id=8137ea1fb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <hr class="light visible-sm-block visible-md-block visible-sm-block visible-xs-block">
                     <h3 class="section-heading">Join Our Mailing List</h3>
                     <p>Sign up to receive updates about Global Azure Bootcamp Linz, including speaker previews, Call
@@ -66,8 +66,7 @@
                         any time.</p>
 
                     <p>
-                        <input type="email" class="form-control" placeholder="Enter your email address" value=""
-                            name="EMAIL" class="required email" id="mce-EMAIL" />
+                        <input type="email" class="form-control" placeholder="Enter your email address" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
                     </p>
 
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -76,8 +75,7 @@
                     </div>
 
                     <p class="text-center">
-                        <input type="submit" class="btn btn-default btn-block" name="subscribe"
-                            id="mc-embedded-subscribe" value="Submit"></button>
+                        <input type="submit" class="btn btn-default btn-block" name="subscribe" id="mc-embedded-subscribe" value="Submit"></button>
                     </p>
 
                     <p>
@@ -90,8 +88,7 @@
             </form>
 
             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script
-                type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+            <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
         </div>
     </div>
     </div>
