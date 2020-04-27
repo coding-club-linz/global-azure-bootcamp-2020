@@ -1,4 +1,5 @@
 {{ $shortLinkQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Short Link") 0).id }}
+{{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }}
 {{ $streamingUrlQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Streaming URL") 0).id }}
 <section id="schedule" class="bg-dark">
     <div class="container">
@@ -60,11 +61,8 @@
 
                             <div class="links">
                                 {{ range $question := .questionAnswers }}
-                                {{ if eq (int $question.questionId) (int $shortLinkQuestionId) }}
-                                <a href="/ics/{{$question.answerValue}}.ics" download><i class="fa fa-calendar" aria-hidden="true"></i>Add
-                                    to calendar</a><br />
-                                <a href="/sessions/{{$question.answerValue}}" target="_blank"><i class="fa fa-video-camera" aria-hidden="true"></i>Open Microsoft Teams
-                                    live event</a>
+                                {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
+                                <a href="{{$question.answerValue}}" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i>Open in YouTube</a>
                                 {{ end }}
                                 {{ end }}
                             </div>

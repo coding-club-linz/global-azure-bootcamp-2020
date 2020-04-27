@@ -17,6 +17,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2U4NDg3NWItNWE5MC00MDkxLThiOTAtMTk4OWExZmYzZTQ2%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "stories-of-void"
         }
@@ -39,6 +43,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzBmY2RiMGUtNzFmNC00MzI3LTg1NDEtZWFmN2MwMWNkY2Qz%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "automated-machine-learning"
@@ -63,6 +71,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTgxNjUzNjYtNTgyNS00MGYwLWI4MWQtYjU3ZTM0OTNkZTgz%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "cosmos-db"
         }
@@ -70,15 +82,15 @@
       "roomId": 11858
     },
     {
-      "id": "182993",
-      "title": "Identity Governance for Microsoft Azure",
-      "description": "With Microsoft Azure as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end Microsoft Azure governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.",
+      "id": "182995",
+      "title": "Master PowerShell with Azure Automation Accounts",
+      "description": "IT-Admins can automate with tools as PowerShell. With Azure Automation Accounts we get one step further: In this session Toni shows typical management and governance tasks automated with PowerShell scripts in a secure and automated way. Configure your runbooks in Azure Automation Accounts and secure, execute, schedule, and monitor your scripts in a controlled environment. If you are already a Powershell master, you will love Azure Automation Accounts and walk away with the wish to migrate your scripts instantly!",
       "startsAt": "2020-04-24T09:00:00",
       "endsAt": "2020-04-24T09:50:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
+        "dcdd324e-6134-416f-bdee-893343bfa8b6"
       ],
       "categoryItems": [
         35850,
@@ -86,8 +98,12 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzYxYzg5YzMtODdiNC00NTZlLTlkZmYtZDIzMzM2YzYxZWE4%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
-          "answerValue": "identity-governance-for-azure"
+          "answerValue": "powershell-with-azure-automation-accounts"
         }
       ],
       "roomId": 11859
@@ -108,6 +124,10 @@
         35852
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY3NGZmYWItNjNjMi00NzYxLWFiZDItNDZkNDdkZjg1OWU0%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "die-wahrheit-ueber-micro-frontends-und-angular"
@@ -132,6 +152,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGY1Y2RkYmEtMmYxNS00ZTUwLTk0YWUtZDk2ZmQ4ZmU0ZDQz%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "luis-als-lebensretter"
         }
@@ -154,6 +178,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjZhZDhhYWMtMWY1NS00NmQ0LWFiZDYtY2I5NDJiN2IyZWIy%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "build-state-of-the-art-apis-with-graphql-and-azure-functions"
@@ -178,6 +206,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjYyYjdhNjctYmMzNC00ZmNjLThiZWMtMDViN2Y1NDM2MWNi%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "the-reactive-cloud-azure-event-grid"
         }
@@ -200,6 +232,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjdkMmI5M2QtYzU1Zi00NDA3LWJhYmUtMGQ1ZWVmMmRkMDQ0%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "microfrontends"
@@ -224,6 +260,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzAyZTc1M2YtODM2MS00NDdiLWI2ZDctY2E4MDk5NDk3OTI3%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "how-to-do-a-great-job-when-working-with-data-models"
         }
@@ -247,6 +287,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDgwZWQ5YmEtNjQ3NS00NzY5LWFjMzItNmM2NTE1MDlhOGU2%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "serverless-is-not-stateless"
         }
@@ -269,6 +313,10 @@
         35852
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjQ4NzA2NjgtYjhjMi00YTI4LWE4MzMtZmZkYjg3NGM2ZjM4%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "iot-powerbi"
@@ -306,6 +354,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQ2MWJhNzYtODg5OS00YmJlLWFhYTctYTczYzJiYTdmYmEy%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "azure-devops-and-github"
         }
@@ -329,6 +381,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTE1ZjY5ZDEtODk3Ny00NDljLTgxMDAtZjIyYjE4ZTZmMmU5%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "azure-network-deep-dive"
         }
@@ -351,6 +407,10 @@
         35852
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjAxY2M4MDgtZmE2MC00NDY3LWE2MWYtNDg1NWMyMWY2MzRl%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "serverless-app-integration-azure-and-power-platform"
@@ -376,6 +436,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjlhYzQwODUtMjE0Yy00M2ZlLWExOTItNjY5ZDcwMGJlNWI0%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "wie-iot-und-ml-in-produktionsumgebungen-hilft"
         }
@@ -400,6 +464,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGYyZDM1OTgtMmEyNC00MmE0LTliNzktM2VlNzNkMDQ2NDY0%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "von-angular-zu-blazor"
         }
@@ -422,6 +490,10 @@
         35852
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODQwMDhmY2QtNzVhYy00MWNiLWFkZjAtOGNlMDAwNWI0ZTU2%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "sql-server-automation-dbatools"
@@ -446,6 +518,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGM4ZDRkYjMtOTNkMS00ZTVlLWI2ZTItYTM1NDM3MjBmYTdl%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "power-plattform-the-dev-stack"
         }
@@ -455,7 +531,7 @@
     {
       "id": "187103",
       "title": "Programmieren wie ein Pirat - Erste Schritte mit R und yarrr",
-      "description": "In diesen 25 min werden wir erste Schritte in der Programmiersprache \"R\" und dem Paket \"yarrr\" machen. Du brauchst dazu keinerlei Vorkenntnisse. Als Beispiel dient uns eine Liste von Piraten:\r\n\r\n* (Piraten-)Daten erkunden\r\n* Statistik (ohne uns dabei weh zu tun)\r\n* Malen nach Zahlen\r\n* Ein Blick in die Glaskugel\r\n\r\nWenn du dir die Beispiele vorher schon ansehen möchtest, kannst du das unter dem folgenden Link (in Englisch) tun:\r\nhttps://bookdown.org/ndphillips/YaRrr/",
+      "description": "In diesen 45 min werden wir erste Schritte in der Programmiersprache \"R\" und dem Paket \"yarrr\" machen. Du brauchst dazu keinerlei Vorkenntnisse. Als Beispiel dient uns eine Liste von Piraten:\r\n\r\n* (Piraten-)Daten erkunden\r\n* Statistik (ohne uns dabei weh zu tun)\r\n* Malen nach Zahlen\r\n* Ein Blick in die Glaskugel\r\n\r\nWenn du dir die Beispiele vorher schon ansehen möchtest, kannst du das unter dem folgenden Link (in Englisch) tun:\r\nhttps://bookdown.org/ndphillips/YaRrr/",
       "startsAt": "2020-04-24T14:00:00",
       "endsAt": "2020-04-24T14:45:00",
       "isServiceSession": false,
@@ -469,8 +545,16 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://zoom.us/j/98934769617?pwd=VlJjOEQ4Z1JVSmdJRWk4MHNCcVJ5UT09"
+        },
+        {
           "questionId": 21790,
           "answerValue": "programmieren-wie-ein-pirat-mit-r-und-yarrr"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/vAI1b3Eh2HM"
         }
       ],
       "roomId": 11859
@@ -492,6 +576,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDE0YTczYWEtNDJmOS00MzE0LTgzNjktZWM1MTAzZWMxMWUz%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "microsoft-blazor-update"
         }
@@ -499,15 +587,15 @@
       "roomId": 11856
     },
     {
-      "id": "182995",
-      "title": "Master PowerShell with Azure Automation Accounts",
-      "description": "IT-Admins can automate with tools as PowerShell. With Azure Automation Accounts we get one step further: In this session Toni shows typical management and governance tasks automated with PowerShell scripts in a secure and automated way. Configure your runbooks in Azure Automation Accounts and secure, execute, schedule, and monitor your scripts in a controlled environment. If you are already a Powershell master, you will love Azure Automation Accounts and walk away with the wish to migrate your scripts instantly!",
+      "id": "182993",
+      "title": "Identity Governance for Microsoft Azure",
+      "description": "With Microsoft Azure as an evergreen service we need to be evergreen with our governance model as well. Join Martina on this end-to-end Microsoft Azure governance journey and learn about the foundation of a governance framework which helps organizations to adopt the solution to their organizational requirements and terms. Building a governance around Microsoft Azure is the key element for a successful implementation of services.",
       "startsAt": "2020-04-24T15:00:00",
       "endsAt": "2020-04-24T15:50:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "dcdd324e-6134-416f-bdee-893343bfa8b6"
+        "72d847d4-d71a-48b9-9788-5bc1471d3ea4"
       ],
       "categoryItems": [
         35850,
@@ -515,8 +603,12 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWVlMzhmNjgtODE5ZC00NWJkLWJlZDQtNTlhNmY2OTE3MWQz%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
-          "answerValue": "powershell-with-azure-automation-accounts"
+          "answerValue": "identity-governance-for-azure"
         }
       ],
       "roomId": 11857
@@ -537,6 +629,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmIxMjI0MzAtNGU2Mi00ODVmLWIyMDItNGIxZjIzNWU1MGU3%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "power-platform-dataflows"
@@ -561,8 +657,16 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://zoom.us/j/98149971916?pwd=eWhnZnArVlVGN1FzcjZxSm16TENyZz09"
+        },
+        {
           "questionId": 21790,
           "answerValue": "amateurfunk-als-hobby"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/gCPgx1KFReo"
         }
       ],
       "roomId": 11859
@@ -583,6 +687,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI3YWJjNDktNTlkYi00ZmNiLWJkNGQtZjdmZDYzYzM3NjE3%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "securing-apps-with-openid-connect"
@@ -607,6 +715,10 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWI5OGRkYWMtNTJhMS00ZDdhLTkxNDgtOWZjODI5NzdjMDBm%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
+        {
           "questionId": 21790,
           "answerValue": "hamnet-internet-der-funkamateure"
         }
@@ -629,6 +741,10 @@
         43221
       ],
       "questionAnswers": [
+        {
+          "questionId": 21789,
+          "answerValue": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGExZTczMjMtZmYwOC00ZWI4LTgyYTQtNjdhOTc4MTJjMWI0%40thread.v2/0?context=%7b%22Tid%22%3a%22c919713c-e1e0-4363-b532-1f05ba05a6d0%22%2c%22Oid%22%3a%227c1eaba5-d243-45e3-a78e-217bb13c253e%22%2c%22IsBroadcastMeeting%22%3atrue%7d"
+        },
         {
           "questionId": 21790,
           "answerValue": "containers-and-you-the-azure-edition"
@@ -653,8 +769,16 @@
       ],
       "questionAnswers": [
         {
+          "questionId": 21789,
+          "answerValue": "https://zoom.us/j/95576490549?pwd=clJxMlJDZzBRMWxDSXlreGw1UW9TZz09"
+        },
+        {
           "questionId": 21790,
           "answerValue": "wie-kommt-man-sicher-durch-die-firewall"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/3mPssxTFtOQ"
         }
       ],
       "roomId": 11859
@@ -1369,7 +1493,7 @@
       "lastName": "Dorrer",
       "bio": "Siehe hier: https://www.linkedin.com/in/simon-dorrer-47168a189/",
       "tagLine": "Amateurfunker, Student und Elektronik-Experte bei SkillsAustria",
-      "profilePicture": "https://sessionize.com/image?f=519ef79225b1f8445c25808e1cb971ca,400,400,1,0,8d983632-0f95-47e2-9a3f-da47d96d630c.jpg",
+      "profilePicture": "https://sessionize.com/image?f=aebf7458b522ea3fbfde17522476abb8,400,400,1,0,d1-fc5e-4fb8-b882-c3878168e8c7.3e1f05a9-f991-42cc-81a6-3c09c88aea54.jpg",
       "isTopSpeaker": false,
       "links": [
         {
@@ -1535,7 +1659,13 @@
       "id": 21790,
       "question": "Short Link",
       "questionType": "Short_Text",
-      "sort": 25
+      "sort": 20
+    },
+    {
+      "id": 22100,
+      "question": "YouTube Video",
+      "questionType": "Short_Text",
+      "sort": 21
     }
   ],
   "categories": [
