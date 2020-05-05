@@ -2,13 +2,13 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
 {{ $session := index (where $.Site.Data.sessionize.sessions "id" .Params.sessionId) 0 }}
-{{ $streamingUrlQuestionId := (index (where $.Site.Data.sessionize.questions "question" "Streaming URL") 0).id }}
+{{ $youTubeVideoQuestionId := (index (where $.Site.Data.sessionize.questions "question" "YouTube Video") 0).id }}
 
 <head>
     <title>{{ .Params.title }} - {{ .Site.Title }}</title>
     {{ partial "head.html" . }}
     {{ range $question:= $session.questionAnswers }}
-    {{ if eq (int $question.questionId) (int $streamingUrlQuestionId) }}
+    {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
     <script>
         window.location = "{{ $question.answerValue }}";
     </script>
@@ -57,18 +57,17 @@
                         {{ end }}
                     </div>
 
-                    {{ $hasStreamingUrl := false}}
+                    {{ $hasYouTubeVideoQuestionId := false}}
                     <p class="text-center">
                         {{ range $question := $session.questionAnswers }}
-                        {{ if eq (int $question.questionId) (int $streamingUrlQuestionId) }}
-                        {{ $hasStreamingUrl := true}}
-                        <a href="{{ $question.answerValue }}" class="btn btn-primary">Go to Microsoft Teams live
-                            event</a>
+                        {{ if eq (int $question.questionId) (int $youTubeVideoQuestionId) }}
+                        {{ $hasYouTubeVideoQuestionId := true}}
+                        <a href="{{ $question.answerValue }}" class="btn btn-primary">Open in YouTube</a>
                         {{ end }}
                         {{ end }}
 
-                        {{ if eq $hasStreamingUrl false }}
-                        <p class="bg-warning warning">The streaming link is not yet available.</p>
+                        {{ if eq $hasYouTubeVideoQuestionId false }}
+                        <p class="bg-warning warning">The YouTube video is not yet available.</p>
                         {{ end }}
                     </p>
                 </div>

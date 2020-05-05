@@ -23,6 +23,10 @@
         {
           "questionId": 21790,
           "answerValue": "stories-of-void"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/G0wRWWsLL5s"
         }
       ],
       "roomId": 11856
@@ -50,6 +54,10 @@
         {
           "questionId": 21790,
           "answerValue": "automated-machine-learning"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/3V_cuxqw9EI"
         }
       ],
       "roomId": 11857
@@ -131,6 +139,10 @@
         {
           "questionId": 21790,
           "answerValue": "die-wahrheit-ueber-micro-frontends-und-angular"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/1L6K-xVrrTU"
         }
       ],
       "roomId": 11856
@@ -185,6 +197,10 @@
         {
           "questionId": 21790,
           "answerValue": "build-state-of-the-art-apis-with-graphql-and-azure-functions"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/PDoWkMy_EDM"
         }
       ],
       "roomId": 11858
@@ -387,6 +403,10 @@
         {
           "questionId": 21790,
           "answerValue": "azure-network-deep-dive"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/BRYIw3r5U4g"
         }
       ],
       "roomId": 11857
@@ -721,6 +741,10 @@
         {
           "questionId": 21790,
           "answerValue": "hamnet-internet-der-funkamateure"
+        },
+        {
+          "questionId": 22100,
+          "answerValue": "https://youtu.be/AX1iT5aiQMI"
         }
       ],
       "roomId": 11857
@@ -928,7 +952,7 @@
       "firstName": "Christian",
       "lastName": "Schwendtner",
       "bio": "Christian Schwendtner ist Softwarearchitekt und -entwickler aus Leidenschaft. Er ist Experte mit jahrelanger Praxiserfahrung in der Webentwicklung und im Microsoft-Umfeld. Christian ist als Trainer, Berater und Sprecher auf Konferenzen tätig. Durch seine jahrelange Erfahrung kann er Entwicklerinnen und Entwicklern wertvolle Tipps und Tricks für die Praxis mitgeben. Er ist Absolvent des Studiengangs Software Engineering der Fachhochschule Hagenberg und dort als nebenberuflich Lehrender tätig.",
-      "tagLine": "Software developer, tech enthusiast, loves learning new things",
+      "tagLine": "Developer Engagement Lead @ Microsoft",
       "profilePicture": "https://sessionize.com/image?f=bedfbb524a75015491f15f9e25c373ba,400,400,1,0,10-0b04-43dd-86ce-cbf5490e9ec5.68721ddd-6434-4778-b74f-59cabbde1fbf.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -1329,11 +1353,6 @@
           "title": "Blog",
           "url": "http://blog.atwork.at",
           "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "http://atwork-it.com",
-          "linkType": "Company_Website"
         }
       ],
       "sessions": [
