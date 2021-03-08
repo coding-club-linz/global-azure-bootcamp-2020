@@ -641,6 +641,62 @@ body {
     max-width: 90vw;
 }
 
+/* Banner 2021 */
+#banner-2021 {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: #e3c038;
+    color: #000;
+    padding: 60px 0;
+}
+
+#banner-2021 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+#banner-2021 h3 {
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#banner-2021 .btn-success {
+    margin-top: 20px;
+    background-color: #001344;
+    /* background-color: #004d88; */
+}
+
+@media (max-width: 1199px) {
+    #banner-2021 {
+        padding: 40px 0;
+    }
+    
+    #banner-2021 h2 {
+        font-size: 26px;
+    }
+
+    #banner-2021 h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #banner-2021 {
+        padding: 20px 0;
+    }
+
+    #banner-2021 h2 {
+        font-size: 24px;
+    }
+
+    #banner-2021 h3 {
+        font-size: 18px;
+    }
+}
+
 /* Sponors */
 .sponsors p {
     font-size: 16px !important;
